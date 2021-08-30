@@ -68,7 +68,7 @@
         "share"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "hide_variants": false,
         "enable_video_looping": false
       }
@@ -122,12 +122,6 @@
       "type": "contact-form",
       "settings": {
         "heading": "Contact form"
-      }
-    },
-    "1630288271b3f0cdde": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
       }
     },
     "16302882770e1f69b2": {
@@ -318,7 +312,6 @@
     "product-recommendations",
     "1630288249c62ddaae",
     "16302882664d70b7cd",
-    "1630288271b3f0cdde",
     "16302882770e1f69b2",
     "1630288282e1e18147",
     "16302882909843324e",
