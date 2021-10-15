@@ -1027,7 +1027,9 @@ header-drawer {
 }
 
 .product_header .content_body {
+  max-width: 32rem;
   width: 100%;
+  margin: 0 2rem;
   padding: 4rem 1rem;
   background-color: #eaf4f2;
 }
