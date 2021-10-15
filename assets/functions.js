@@ -10,9 +10,7 @@
 $(function(){
 
   objectFitImages();
-  $('.product_imgs').find('.product_imgs_item').matchHeight({
-    byRow: true
-  });
+  heightmatch($('.product_imgs').find('.product_imgs_item'));
 
   var disableBodyScroll = bodyScrollLock.disableBodyScroll;
   var enableBodyScroll = bodyScrollLock.enableBodyScroll;
