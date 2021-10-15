@@ -1139,17 +1139,21 @@ header-drawer {
 }
 
 .product_information .product-form__submit {
-  max-width: 295px;
-  height: 60px;
+  max-width: 29.5rem;
+  height: 6rem;
   margin-right: auto;
   margin-left: auto;
   margin-top: 2rem;
 }
 
+.product_information .product-form .shopify-payment-button__button {
+  min-height: 6rem;
+}
+
 .product_information .product-form [data-testid="GooglePay-button"],
 .product_information .product-form [data-testid="ApplePay-button"] {
-  max-width: 295px !important;
-  height: 60px !important;
+  max-width: 29.5rem !important;
+  height: 6rem !important;
   margin-right: auto;
   margin-left: auto;
   margin-top: 2rem;
