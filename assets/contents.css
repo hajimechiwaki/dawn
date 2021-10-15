@@ -1148,7 +1148,7 @@ header-drawer {
 
 .product_information .product-form .product-form__buttons {
   max-width: 29.5rem !important;
-  width: 100% !important;
+  width: 29.5rem !important;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1164,7 +1164,7 @@ header-drawer {
 .product_information .product-form [data-testid="GooglePay-button"],
 .product_information .product-form [data-testid="ApplePay-button"] {
   max-width: 29.5rem !important;
-  width: 100% !important;
+  width: 29.5rem !important;
   height: 6rem !important;
   margin-right: auto;
   margin-left: auto;
