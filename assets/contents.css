@@ -823,10 +823,6 @@ img {
   justify-content: flex-start;
 }
 
-.content_news a>* {
-  border: 1px solid #f00;
-}
-
 .content_news a_date {
   -ms-flex-preferred-size: 10rem;
   flex-basis: 10rem;
