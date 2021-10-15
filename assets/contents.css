@@ -1038,6 +1038,7 @@ header-drawer {
 }
 
 .product_header_summary {
+  margin-top: 4rem;
   font-size: 1.2rem;
   line-height: 1.5;
 }
