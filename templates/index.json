@@ -25,6 +25,18 @@
         "show_text_below": false
       }
     },
+    "1634311099c0b2b4a0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>"
+      }
+    },
+    "16343110734f066ed3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if blogs.news.articles %}\n<div class=\"content\">\n\t<div class=\"content_inner\">\n\t\t<ul class=\"content_news\">\n\t\t  {% for article in blogs.news.articles  %}\n\t\t    <li>\n\t\t\t\t<a href=\"{{ article.url }}\">\n\t\t\t\t\t<div class=\"content_news_date\">{{ article.published_at | time_tag: '%Y.%m.%d' }}<\/div>\n\t\t\t\t\t{% if article.tags %}<div class=\"content_news_tag\">{% for tag in article.tags %}{{ tag }}{% endfor %}<\/div>{% endif %}\n\t\t\t\t\t<div class=\"content_news_title\">{{ article.title }}<\/div>\n\t\t\t\t<\/a>\n\t\t\t<\/li>\n\t\t  {% endfor %}\n\t\t<\/ul>\n\t<\/div>\n<\/div>\n{% endif %}"
+      }
+    },
     "163309939390b4699a": {
       "type": "custom-liquid",
       "settings": {
@@ -295,17 +307,13 @@
         "color_scheme": "background-1",
         "full_width": true
       }
-    },
-    "16343110734f066ed3": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<ul>\n  {% for article in blogs.news.articles  %}\n    <li>{{ article.title | link_to: article.url }}<\/li>\n  {% endfor %}\n<\/ul>"
-      }
     }
   },
   "order": [
     "video",
     "image_banner",
+    "1634311099c0b2b4a0",
+    "16343110734f066ed3",
     "163309939390b4699a",
     "1633077112a56b9835",
     "16330993394862c54b",
@@ -317,7 +325,6 @@
     "1633308690edda275d",
     "163309843462365852",
     "16330754661e6bdadf",
-    "16330768090bd2aeee",
-    "16343110734f066ed3"
+    "16330768090bd2aeee"
   ]
 }
