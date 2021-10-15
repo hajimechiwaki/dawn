@@ -21,9 +21,6 @@ $(function(){
   var nav = $('#nav');
   var header = $('#header');
 
-  $('.product_imgs').on('init',function(){
-    heightmatch($('.product_imgs_item'));
-  })
   $('.product_imgs').slick({
     fade: true,
     arrows: false
@@ -32,17 +29,6 @@ $(function(){
 
 });
 
-function heightmatch(tgt){
-  var tgt = tgt;
-  var height = 0;
-  tgt.each(function(){
-    var thisheight = $(this).outerHeight();
-    height = ( height < thisheight )? thisheight : height;
-    alert(height);
-  })
-  $(this).css({
-    'height': height
-  })
-}
+
 
 
