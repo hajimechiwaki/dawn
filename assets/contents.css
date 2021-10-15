@@ -445,7 +445,6 @@ img {
   float: none;
   height: initial;
   min-height: initial;
-  border: 1px solid #f00;
 }
 
 .slick-track .slick-slide>div {
@@ -860,6 +859,15 @@ img {
   margin-left: 0;
   padding-left: 16px;
   border-left: 1px solid currentColor;
+}
+
+.color-accent-1,
+.color-accent-2,
+.color-background-1,
+.color-background-2,
+.color-inverse,
+body {
+  color: rgba(var(--color-foreground), 1);
 }
 
 header-drawer {
