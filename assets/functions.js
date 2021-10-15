@@ -21,7 +21,7 @@ $(function(){
   var nav = $('#nav');
   var header = $('#header');
 
-  $('.product_header_imgs').slick({
+  $('.product_imgs').slick({
     fade: true,
     arrows: false
   })
