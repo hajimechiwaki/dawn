@@ -4,6 +4,13 @@
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
+<div class="content">
+  <div class="content_inner -page">
+    {{ page.content }}
+  </div>
+</div>
+
+{% comment %} 
 <div class="page-width page-width--narrow">
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
@@ -12,6 +19,7 @@
     {{ page.content }}
   </div>
 </div>
+{% endcomment %} 
 
 {% schema %}
 {
