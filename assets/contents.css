@@ -989,13 +989,17 @@ header-drawer {
   margin-top: 0;
 }
 
+.product {
+  position: relative;
+}
+
 .product-grid.negative-margin--small {
   margin-bottom: -4rem;
 }
 
 .product_header {
+  position: relative;
   margin: 0 -2rem;
-  border: 1px solid #f00;
 }
 
 .product_header_cols .content_body>*+* {
