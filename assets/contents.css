@@ -434,6 +434,18 @@ img {
   background-color: #661e7a;
 }
 
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-track .slick-slide {
+  float: none;
+  height: initial;
+  min-height: initial;
+}
+
 .cols {
   position: relative;
   display: -webkit-box;
