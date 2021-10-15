@@ -10,6 +10,7 @@
 $(function(){
 
   objectFitImages();
+  $('.product_imgs').find('.product_imgs_item').matchHeight();
 
   var disableBodyScroll = bodyScrollLock.disableBodyScroll;
   var enableBodyScroll = bodyScrollLock.enableBodyScroll;
