@@ -823,17 +823,17 @@ img {
   justify-content: flex-start;
 }
 
-.content_news a_date {
+.content_news_date {
   -ms-flex-preferred-size: 10rem;
   flex-basis: 10rem;
 }
 
-.content_news a_tag {
+.content_news_tag {
   -ms-flex-preferred-size: 10rem;
   flex-basis: 10rem;
 }
 
-.content_news a_title {
+.content_news_title {
   margin-left: auto;
 }
 
