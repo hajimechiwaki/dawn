@@ -814,6 +814,19 @@ img {
   object-fit: cover;
 }
 
+.content_news a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.content_news_title {
+  margin-left: auto;
+}
+
 .inlines {
   line-height: 1.1;
   margin: 0 -10px -16px;
