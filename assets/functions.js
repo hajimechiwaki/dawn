@@ -32,9 +32,9 @@ $(function(){
 
 function heightmatch(tgt){
   var tgt = tgt;
-  var thisheight = $(this).outerHeight();
   var height = 0;
   tgt.each(function(){
+    var thisheight = $(this).outerHeight();
     height = ( height < thisheight )? thisheight : height;
   })
   $(this).css({
