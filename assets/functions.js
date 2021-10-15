@@ -21,12 +21,14 @@ $(function(){
   var nav = $('#nav');
   var header = $('#header');
 
+  $('.product_imgs').on('init',function(){
+    heightmatch($('.product_imgs').find('.product_imgs_item'));
+  })
   $('.product_imgs').slick({
     fade: true,
     arrows: false
   })
 
-  heightmatch($('.product_imgs').find('.product_imgs_item'));
 
 });
 
