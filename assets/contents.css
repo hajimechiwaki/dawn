@@ -1014,7 +1014,7 @@ header-drawer {
 
 .product_header {
   position: relative;
-  margin: 0 -2rem;
+  margin: -6rem -2rem 0;
 }
 
 .product_header .content_inner {
