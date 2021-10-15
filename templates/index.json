@@ -15,6 +15,7 @@
       "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/home_vi_img_01.png",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": false,
@@ -294,6 +295,12 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "16343110734f066ed3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<ul>\n  {% for article in blogs.news.articles  %}\n    <li>{{ article.title | link_to: article.url }}<\/li>\n  {% endfor %}\n<\/ul>"
+      }
     }
   },
   "order": [
@@ -310,6 +317,7 @@
     "1633308690edda275d",
     "163309843462365852",
     "16330754661e6bdadf",
-    "16330768090bd2aeee"
+    "16330768090bd2aeee",
+    "16343110734f066ed3"
   ]
 }
