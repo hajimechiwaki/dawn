@@ -1,63 +1,147 @@
 {
-  "current": "Default",
-  "presets": {
-    "Default": {
-      "colors_solid_button_labels": "#FFFFFF",
-      "colors_accent_1": "#121212",
-      "colors_accent_2": "#334FB4",
-      "colors_text": "#121212",
-      "colors_outline_button_labels": "#121212",
-      "colors_background_1": "#FFFFFF",
-      "colors_background_2": "#F3F3F3",
-      "type_header_font": "assistant_n4",
-      "type_body_font": "assistant_n4",
-      "sections": {
-        "announcement-bar": {
-          "type": "announcement-bar",
-          "blocks": {
-            "announcement-bar-0": {
-              "type": "announcement",
-              "settings": {
-                "color_scheme": "background-1"
-              }
-            }
-          },
-          "block_order": [
-            "announcement-bar-0"
-          ]
-        }
-      }
-    },
-    "Craft": {
-      "colors_solid_button_labels": "#EFECEC",
-      "colors_accent_1": "#2A332F",
-      "colors_accent_2": "#476154",
-      "colors_text": "#1C1A1A",
-      "colors_outline_button_labels": "#7B8382",
-      "colors_background_1": "#EFECEC",
-      "colors_background_2": "#C1BCAE",
-      "type_header_font": "americana_n4",
-      "type_body_font": "quattrocento_sans_n4",
-      "sections": {
-        "footer": {
-          "type": "footer",
-          "settings": {
-            "color_scheme": "accent-1"
-          },
-          "blocks": {
-            "menu": {
-              "type": "link_list"
-            },
-            "text": {
-              "type": "text"
-            }
-          },
-          "block_order": [
-            "menu",
-            "text"
-          ]
-        }
-      }
-    }
-  }
+	"current": {
+		"colors_solid_button_labels": "#534841",
+		"colors_accent_1": "#fff",
+		"colors_accent_2": "#534841",
+		"colors_text": "#534841",
+		"colors_outline_button_labels": "#534841",
+		"colors_background_1": "#eaf4f2",
+		"colors_background_2": "#eaf4f2",
+		"type_header_font": "sans-serif",
+		"type_body_font": "sans-serif",
+		"sold_out_badge_color_scheme": "inverse",
+		"page_width": "1200",
+		"social_twitter_link": "https://twitter.com/3tosaya",
+		"social_facebook_link": "https://www.facebook.com/3tosaya/",
+		"social_instagram_link": "https://www.instagram.com/3tosaya/",
+		"currency_code_enabled": false,
+		"sections": {
+			"announcement-bar": {
+				"type": "announcement-bar",
+				"blocks": {
+					"announcement-bar-0": {
+						"type": "announcement",
+						"settings": {
+							"text": "WEB SITE RENEWAL OPEN",
+							"color_scheme": "background-1",
+							"link": ""
+						}
+					}
+				},
+				"block_order": [
+					"announcement-bar-0"
+				],
+				"settings": {}
+			},
+			"header": {
+				"type": "header",
+				"settings": {
+					"color_scheme": "background-1",
+					"logo": "shopify://shop_images/logo_mitosaya_000_2x_f2193973-4cab-4e2a-95b6-b98766551901.png",
+					"logo_width": 100,
+					"logo_position": "middle-left",
+					"menu": "main-menu",
+					"show_line_separator": true,
+					"enable_sticky_header": true
+				}
+			},
+			"footer": {
+				"type": "footer",
+				"blocks": {
+					"5cb6f2c4-da26-4e87-83c4-1b1654dca7b6": {
+						"type": "image",
+						"settings": {
+							"image": "shopify://shop_images/logo_mitosaya_full_000_2x_23f7e5ba-61c2-4afa-8cb2-77b2647ebdd3.png",
+							"image_width": 100,
+							"alignment": "center"
+						}
+					},
+					"d7eeab39-20db-4bae-9021-fa2e6683b0c5": {
+						"type": "text",
+						"settings": {
+							"heading": "mitosaya薬草園蒸留所",
+							"subtext": "<p>〒298-0216 千葉県夷隅郡大多喜町大多喜486<br/>e-mail. info@mitosaya.com / tel. 0470 64 6041</p>"
+						}
+					}
+				},
+				"block_order": [
+					"5cb6f2c4-da26-4e87-83c4-1b1654dca7b6",
+					"d7eeab39-20db-4bae-9021-fa2e6683b0c5"
+				],
+				"settings": {
+					"color_scheme": "background-1",
+					"newsletter_enable": false,
+					"newsletter_heading": "Subscribe to our emails",
+					"show_social": false,
+					"enable_country_selector": false,
+					"enable_language_selector": false,
+					"payment_enable": false
+				}
+			}
+		},
+		"content_for_index": []
+	},
+	"presets": {
+		"Default": {
+			"colors_solid_button_labels": "#FFFFFF",
+			"colors_accent_1": "#121212",
+			"colors_accent_2": "#334FB4",
+			"colors_text": "#121212",
+			"colors_outline_button_labels": "#121212",
+			"colors_background_1": "#FFFFFF",
+			"colors_background_2": "#F3F3F3",
+			"type_header_font": "assistant_n4",
+			"type_body_font": "assistant_n4",
+			"sections": {
+				"announcement-bar": {
+					"type": "announcement-bar",
+					"blocks": {
+						"announcement-bar-0": {
+							"type": "announcement",
+							"settings": {
+								"color_scheme": "background-1"
+							}
+						}
+					},
+					"block_order": [
+						"announcement-bar-0"
+					],
+					"settings": {}
+				}
+			}
+		},
+		"Craft": {
+			"colors_solid_button_labels": "#EFECEC",
+			"colors_accent_1": "#2A332F",
+			"colors_accent_2": "#476154",
+			"colors_text": "#1C1A1A",
+			"colors_outline_button_labels": "#7B8382",
+			"colors_background_1": "#EFECEC",
+			"colors_background_2": "#C1BCAE",
+			"type_header_font": "americana_n4",
+			"type_body_font": "quattrocento_sans_n4",
+			"sections": {
+				"footer": {
+					"type": "footer",
+					"blocks": {
+						"menu": {
+							"type": "link_list",
+							"settings": {}
+						},
+						"text": {
+							"type": "text",
+							"settings": {}
+						}
+					},
+					"block_order": [
+						"menu",
+						"text"
+					],
+					"settings": {
+						"color_scheme": "accent-1"
+					}
+				}
+			}
+		}
+	}
 }
