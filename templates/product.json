@@ -1,1 +1,72 @@
-{"sections":{"163306143649b6db9e":{"type":"custom-liquid","settings":{"custom_liquid":"<div class=\"content product_header\">\n<div class=\"content_inner\">\n<div class=\"cols -reverse -middle product_header_cols\">\n{% if product.media %}\n<div class=\"content_img\">\n<div class=\"product_header_imgs\">\n{% for media in product.media %}\n  {% case media.media_type %}\n    {% when 'image' %}\n      <div class=\"product_header_img\">\n        <img src=\"{{ media | img_url: '1200x1200'}}\" alt=\"{{ media.alt }}\">\n       <\/div>\n    {% when 'external_video' %}\n      <div class=\"product_header_img -media\">\n        {{ media | external_video_tag }}\n      <\/div>\n    {% when 'video' %}\n      <div class=\"product_header_img -mov\">\n        {{ media | video_tag: controls: true }}\n      <\/div>\n    {% when 'model' %}\n      <div class=\"product_header_img -model\">\n        {{ media | model_viewer_tag }}\n      <\/div>\n  {% endcase %}\n{% endfor %}\n<\/div>\n<\/div>\n{% endif %}\n\n<div class=\"content_body -center\">\n<div class=\"product_header_labels\">\n<p class=\"product_header_labels_main\">TASTE<\/p>\n<p>ONLINE SHOP<\/p>\n{% if product.collections %}\n<ul class=\"product_header_collections\">\n{% for collection in product.collections %}\n<li>{{ collection.title }}<\/li>\n{% endfor %}\n<\/ul>\n{% endif %}\n<\/div>\n\n\n<div class=\"product_header_titles\">\n<h1 class=\"product_header_titles_main\">{{ product.title }}<\/h1>\n{% if product.metafields.mitosaya_fields.subtitle_jp %}\n<p class=\"product_header_titles_sub\">{{ product.metafields.mitosaya_fields.subtitle_jp }}<\/p>\n{% endif %}\n<\/div>\n\n<p class=\"product_header_alcohol\">{{ product.metafields.mitosaya_fields.alcohol }}% vol<\/p>\n\n{% if product.variants %}\n<ul class=\"product_header_variants\">\n{% for variant in product.variants %}\n<li>{{ variant.title }} {{ variant.price | money }}   {% if product.available %}in stock{% else %}out of stock{% endif %}<\/li>\n{% endfor %}\n<\/ul>\n{% endif %}\n\n<\/div>\n<\/div>\n<\/div>\n<\/div>"}},"main":{"type":"main-product","blocks":{"description":{"type":"description","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button"}},"price":{"type":"price","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true}}},"block_order":["description","variant_picker","price","quantity_selector","buy_buttons"],"settings":{"enable_sticky_info":true,"hide_variants":false,"enable_video_looping":false}},"product-recommendations":{"type":"product-recommendations","disabled":true,"settings":{"heading":"You may also like","image_ratio":"adapt","show_secondary_image":false,"add_image_padding":false,"show_image_outline":true,"show_vendor":false,"show_rating":false}}},"order":["163306143649b6db9e","main","product-recommendations"]}
+{
+  "sections": {
+    "163306143649b6db9e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"content product_header\">\n\t<div class=\"content_inner\">\n\t\n\t\t<div class=\"content_bg\"><\/div>\n\t\n\t\t<div class=\"content_body -center\">\n\t\t\t<div class=\"product_header_labels\">\n\t\t\t\t<p class=\"product_header_labels_main\">TASTE<\/p>\n\t\t\t\t<p>ONLINE SHOP<\/p>\n\t\t\t\t{% if product.collections %}\n\t\t\t\t<ul class=\"product_header_collections\">\n\t\t\t\t\t{% for collection in product.collections %}\n\t\t\t\t\t<li>{{ collection.title }}<\/li>\n\t\t\t\t\t{% endfor %}\n\t\t\t\t<\/ul>\n\t\t\t\t{% endif %}\n\t\t\t<\/div>\n\t\n\t\t\t<div class=\"product_header_titles\">\n\t\t\t\t<h1 class=\"product_header_titles_main\">{{ product.title }}<\/h1>\n\t\t\t\t{% if product.metafields.mitosaya_fields.subtitle_jp %}\n\t\t\t\t<p class=\"product_header_titles_sub\">{{ product.metafields.mitosaya_fields.subtitle_jp }}<\/p>\n\t\t\t\t{% endif %}\n\t\t\t<\/div>\n\t\n\t\t\t{% if product.metafields.mitosaya_fields.alcohol %}\n\t\t\t<p class=\"product_header_alcohol\">{{ product.metafields.mitosaya_fields.alcohol }}% vol<\/p>\n\t\t\t{% endif %}\n\t\n\t\t\t{% if product.variants %}\n\t\t\t<ul class=\"product_header_variants\">\n\t\t\t\t{% for variant in product.variants %}\n\t\t\t\t<li>{{ variant.title }} {{ variant.price | money }}   {% if product.available %}in stock{% else %}out of stock{% endif %}<\/li>\n\t\t\t\t{% endfor %}\n\t\t\t<\/ul>\n\t\t\t{% endif %}\n\t\t<\/div>\n\t<\/div>\n<\/div>"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "variant_picker",
+        "price",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "163306143649b6db9e",
+    "main",
+    "product-recommendations"
+  ]
+}
