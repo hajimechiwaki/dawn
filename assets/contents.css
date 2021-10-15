@@ -746,10 +746,11 @@ img {
 }
 
 .content_inner {
-  max-width: 120rem;
+  min-height: 74rem;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  z-index: 2;
 }
 
 .content_inner.-page>*+* {
@@ -758,6 +759,15 @@ img {
 
 .content_inner.-page .page_header_title {
   font-size: 2.4rem;
+}
+
+.content_bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .inlines {
@@ -981,6 +991,11 @@ header-drawer {
 
 .product-grid.negative-margin--small {
   margin-bottom: -4rem;
+}
+
+.product_header {
+  margin: 0 -2rem;
+  border: 1px solid #f00;
 }
 
 .product_header_cols .content_body>*+* {
