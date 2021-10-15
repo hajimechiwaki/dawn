@@ -870,6 +870,10 @@ body {
   color: rgba(var(--color-foreground), 1);
 }
 
+.header__menu-item {
+  color: rgba(var(--color-foreground), 1);
+}
+
 header-drawer {
   margin-left: 0 !important;
 }
