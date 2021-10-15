@@ -1012,6 +1012,7 @@ header-drawer {
 }
 
 .product_header .content_body {
+  width: 100%;
   padding: 4rem 1rem;
   background-color: #eaf4f2;
 }
