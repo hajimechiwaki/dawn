@@ -22,7 +22,7 @@ $(function(){
   var header = $('#header');
 
   $('.product_imgs').on('init',function(){
-    heightmatch($('.product_imgs').find('.product_imgs_item'));
+    heightmatch($('.product_imgs_item'));
   })
   $('.product_imgs').slick({
     fade: true,
@@ -38,6 +38,7 @@ function heightmatch(tgt){
   tgt.each(function(){
     var thisheight = $(this).outerHeight();
     height = ( height < thisheight )? thisheight : height;
+    alert(height);
   })
   $(this).css({
     'height': height
