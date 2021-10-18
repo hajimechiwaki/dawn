@@ -11,7 +11,7 @@
 			{%- for block in section.blocks -%}
 			<a{%if section.settings.button_link %} href="{{ section.settings.button_link }}"{% endif %} class="card">
 				{%- if block.settings.image != blank -%}
-				<div class="card_img img{% if section.settings.image_ratio == 'square' %} -img1x1{% elsif section.settings.image_ratio == 'potrait' %} -img2x3{% elsif section.settings.image_ratio == 'landscape' %} -img3x2{% endif %}">
+				<div class="card_img img{% if section.settings.image_ratio == 'square' %} -img1x1{% elsif section.settings.image_ratio == 'portrait' %} -img2x3{% elsif section.settings.image_ratio == 'landscape' %} -img3x2{% endif %}">
 					<img data-src="{{ block.settings.image | img_url }}" class="lazyload">
 				</div>
 				{%- endif -%}
@@ -37,7 +37,7 @@
 </div>
 
 
-{ % comment % }
+{% comment %}
 
 
 <div class="multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
@@ -129,7 +129,7 @@
   </div>
 </div>
 
-{ % endcomment % }
+{% endcomment %}
 
 {% schema %}
 {
