@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="content background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="content -center background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
 	<div class="content_inner">
 		{% if section.settings.title != blank %}
 		<h2 class="content_title">{{ section.settings.title | escape }}</h2>
@@ -11,8 +11,8 @@
 			{%- for block in section.blocks -%}
 			<a{%if section.settings.button_link %} href="{{ section.settings.button_link }}"{% endif %} class="card">
 				{%- if block.settings.image != blank -%}
-				<div class="card_img img{% if section.settings.image_ratio == 'square' %} -r1x1{% elsif section.settings.image_ratio == 'portrait' %} -r2x3{% elsif section.settings.image_ratio == 'landscape' %} -r3x2{% endif %}">
-					<img data-src="{{ block.settings.image | img_url }}" class="lazyload">
+				<div class="card_img img -cover {% if section.settings.image_ratio == 'square' %} -r1x1{% elsif section.settings.image_ratio == 'portrait' %} -r2x3{% elsif section.settings.image_ratio == 'landscape' %} -r3x2{% endif %}">
+					<img data-src="{{ block.settings.image | img_url: 'master' }}" class="lazyload">
 				</div>
 				{%- endif -%}
 
