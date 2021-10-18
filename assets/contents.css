@@ -782,12 +782,6 @@ img {
   flex: 1 1 100%;
 }
 
-.cols_instagram {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-}
-
 .content_inner {
   position: relative;
   width: 100%;
@@ -1439,6 +1433,12 @@ header-drawer {
     -ms-flex-preferred-size: calc( 100% / 5 - 56px);
     flex-basis: calc( 100% / 5 - 56px);
     max-width: calc( 100% / 5 - 56px);
+  }
+
+  .cols_instagram {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 18rem;
+    flex: 0 0 18rem;
   }
 
   .content_inner {
