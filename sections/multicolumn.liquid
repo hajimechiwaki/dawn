@@ -11,7 +11,7 @@
 			{%- for block in section.blocks -%}
 			<a{%if section.settings.button_link %} href="{{ section.settings.button_link }}"{% endif %} class="card">
 				{%- if block.settings.image != blank -%}
-				<div class="card_img img -cover {% if section.settings.image_ratio == 'square' %} -r1x1{% elsif section.settings.image_ratio == 'portrait' %} -r2x3{% elsif section.settings.image_ratio == 'landscape' %} -r3x2{% endif %}">
+				<div class="card_img img -cover {% if section.settings.image_ratio == 'adapt' %} -r3x2{% elsif section.settings.image_ratio == 'square' %} -r1x1{% elsif section.settings.image_ratio == 'portrait' %} -r2x3{% elsif section.settings.image_ratio == 'landscape' %} -r3x2{% endif %}">
 					<img data-src="{{ block.settings.image | img_url: 'master' }}" class="lazyload">
 				</div>
 				{%- endif -%}
