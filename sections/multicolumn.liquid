@@ -2,6 +2,44 @@
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
+<div class="content background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
+	<div class="content_inner">
+		{% if section.settings.title != blank %}
+		<h2 class="content_title">{{ section.settings.title | escape }}</h2>
+		{% endif %}
+		<div class="cols -has{{ section.blocks.size }}{% if section.settings.column_alignment == 'center' %} -gather{% endif %}"{% if section.settings.swipe_on_mobile %} data-spslide{% endif %}>
+			{%- for block in section.blocks -%}
+			<a{%if section.settings.button_link %} href="{{ section.settings.button_link }}"{% endif %} class="card">
+				{%- if block.settings.image != blank -%}
+				<div class="card_img img{% if section.settings.image_ratio == 'square' %} -img1x1{% elsif section.settings.image_ratio == 'potrait' %} -img2x3{% elsif section.settings.image_ratio == 'landscape' %} -img3x2{% endif %}">
+					<img data-src="{{ block.settings.image | img_url }}" class="lazyload">
+				</div>
+				{%- endif -%}
+
+				<div class="card_info">
+					{%- if block.settings.title != blank -%}
+					<h3 class="card_title">{{ block.settings.title | escape }}</h3>
+					{%- endif -%}
+					{%- if block.settings.text != blank -%}
+					<div class="card_text">{{ block.settings.text }}</div>
+					{%- endif -%}
+				</div>
+
+				{%- if section.settings.button_label != blank and section.settings.button_link -%}
+				<div class="btn">
+					<span>{{ section.settings.button_label }}</span>
+				</div>
+				{%- endif -%}
+			</a>
+			{%- endfor -%}
+		</div>
+	</div>
+</div>
+
+
+{ % comment % }
+
+
 <div class="multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width">
     <div class="title-wrapper-with-link title-wrapper--self-padded-mobile{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
@@ -90,6 +128,8 @@
     </div>
   </div>
 </div>
+
+{ % endcomment % }
 
 {% schema %}
 {
