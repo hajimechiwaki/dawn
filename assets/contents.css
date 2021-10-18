@@ -1219,6 +1219,10 @@ header-drawer {
   margin-top: 4rem;
 }
 
+.cards .card>*+* {
+  margin-top: 1.6rem;
+}
+
 @media screen and (min-width: 481px) {
   body {
     min-width: 1200px;
