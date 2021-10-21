@@ -858,7 +858,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
   max-width: 32rem;
-  min-height: 74rem;
+  min-height: 70rem;
   width: 100%;
 }
 
@@ -1115,7 +1115,7 @@ header-drawer {
   -ms-flex-align: center;
   align-items: center;
   max-width: 32rem;
-  min-height: 74rem;
+  min-height: 80rem;
   width: 100%;
 }
 
