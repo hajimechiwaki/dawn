@@ -31,7 +31,9 @@
     </div>
     {%- if section.settings.show_view_all and section.settings.swipe_on_mobile and more_in_collection -%}
     <div class="content_btn">
-      <a href="{{ section.settings.collection.url }}" class="btn">{{ 'sections.featured_collection.view_all' | t }}</a>
+      <a href="{{ section.settings.collection.url }}" class="btn">
+        <span>{{ 'sections.featured_collection.view_all' | t }}</span>
+      </a>
     </div>
     {%- endif -%}
   </div>
