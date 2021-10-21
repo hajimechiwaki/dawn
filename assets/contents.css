@@ -1480,6 +1480,10 @@ header-drawer {
     width: 48rem;
   }
 
+  .content_inner.-large {
+    width: 1140rem;
+  }
+
   .content_inner.-page figure.-pad {
     padding: 0 30px;
   }
