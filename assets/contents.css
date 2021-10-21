@@ -1248,11 +1248,6 @@ header-drawer {
   font-size: 1.2rem;
 }
 
-.product_tax {
-  text-align: center;
-  margin-top: .8rem;
-}
-
 .product_information .product__description>*:not(script):not(meta):not(link)+* {
   margin-top: 3rem;
 }
@@ -1320,6 +1315,11 @@ header-drawer {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 2rem;
+}
+
+.product__tax {
+  text-align: center;
+  margin-top: .8rem;
 }
 
 .cols_news {
