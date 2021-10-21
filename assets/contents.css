@@ -926,8 +926,8 @@ img {
 }
 
 .content_news_tag {
-  -ms-flex-preferred-size: 80%;
-  flex-basis: 80%;
+  -ms-flex-preferred-size: 70%;
+  flex-basis: 70%;
   white-space: nowrap;
 }
 
