@@ -227,6 +227,10 @@ img {
   overflow: hidden;
 }
 
+.img:empty {
+  display: block;
+}
+
 .img::before {
   content: '';
   display: block;
@@ -816,6 +820,15 @@ img {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.content_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .content_title {
