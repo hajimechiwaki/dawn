@@ -11,6 +11,11 @@
 		<img data-src="{{ product_card_product.featured_media | img_url: '960x' }}" class="lazyload">
 	</div>
 	{%- endif -%}
+	<div class="card_info">
+		{%- if product_card_product.title -%}
+		<h3 class="card_title">{{ product_card_product.title }}</h3>
+		{%- endif -%}
+	</div>
 
 </a>
 
