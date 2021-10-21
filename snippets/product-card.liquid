@@ -14,8 +14,9 @@
 	<div class="card_info">
 		{%- if product_card_product.title -%}
 		<h3 class="card_title card_product_name">{{ product_card_product.title }}</h3>
-		<p class="card_product_title_sub">{% if product.type == 'EAU DE VIE' %}{{ product.metafields.mitosaya_fields.subtitle_en }}{% else %}{{ product.metafields.mitosaya_fields.subtitle_jp }}{% endif %}</p>
 		{%- endif -%}
+		
+		<p class="card_product_title_sub">{{ product.metafields.mitosaya_fields.subtitle_jp }}</p>
 	</div>
 
 </a>
