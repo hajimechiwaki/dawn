@@ -844,6 +844,12 @@ img {
 
 .cols_instagram a {
   display: block;
+  margin: 0 2rem;
+}
+
+.cols_instagram a img {
+  width: 100%;
+  height: auto;
 }
 
 .content_inner {
