@@ -161,3 +161,13 @@
   -o-object-fit: contain;
   object-fit: contain;
 }
+
+.slick-prev {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 50%;
+  left: -.1rem;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
