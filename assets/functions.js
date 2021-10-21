@@ -21,6 +21,8 @@ $(function(){
   var nav = $('#nav');
   var header = $('#header');
 
+  checkbp();
+
   $('.product_imgs').slick({
     fade: true,
     arrows: false
