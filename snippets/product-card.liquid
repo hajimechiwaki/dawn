@@ -6,7 +6,7 @@
     <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
   {%- endif -%}
 
-	{% if product_card_product.featured_media != nil and show_image_outline %}
+	{% if product_card_product.featured_media != nil %}
 	<div class="card_img img -cover {% if media_size == 'adapt' %} -r3x2{% elsif media_size == 'square' %} -r1x1{% elsif media_size == 'portrait' %} -r2x3{% elsif media_size == 'landscape' %} -r3x2{% endif %}">
 		<img data-src="{{ product_card_product.featured_media | img_url: 'master' }}" class="lazyload">
 	</div>
