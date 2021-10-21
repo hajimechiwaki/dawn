@@ -831,7 +831,14 @@ img {
 }
 
 .cols[data-spslide] {
+  margin-right: -2rem;
+  margin-left: -2rem;
   padding: 0 2rem;
+}
+
+.cols[data-spslide]>* {
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .content_inner {
