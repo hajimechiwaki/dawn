@@ -1256,6 +1256,14 @@ header-drawer {
   margin-top: 1.6rem;
 }
 
+.cards .card_title.-large {
+  font-size: 2rem;
+}
+
+.cards .card_title_sub {
+  margin-top: 1.6rem;
+}
+
 @media screen and (min-width: 481px) {
   body {
     min-width: 1200px;
