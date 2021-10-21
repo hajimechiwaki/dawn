@@ -307,6 +307,12 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "1634781646989d26c4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"content index_header\">\n\t<div class=\"content_bg\">\n\t\t<video preload=\"none\" data-autoplay loop playsinline muted class=\"lazyload bgimg\">\n\t\t<source type=\"video\/mp4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/mitosaya_20211013_3.mp4?v=1634110612\">\n\t\t<\/video>\n\t<\/div>\n\t<div class=\"content_inner\">\n\t\t<div class=\"content_body -center\">\n\t\t\t<h1 class=\"content_title\">MITOSAYA<\/h1>\n\t\t<\/div>\n\t<\/div>\n<\/div>"
+      }
     }
   },
   "order": [
@@ -325,6 +331,7 @@
     "1633308690edda275d",
     "163309843462365852",
     "16330754661e6bdadf",
-    "16330768090bd2aeee"
+    "16330768090bd2aeee",
+    "1634781646989d26c4"
   ]
 }
