@@ -27,9 +27,11 @@ $(function(){
   })
 
   $('[data-spslide]').each(function(){
-    arrows: true,
-    dots: true,
-    fade: true,
+    $(this).slick({
+      arrows: true,
+      dots: true,
+      fade: true,
+    })
   })
 
 
