@@ -1248,6 +1248,10 @@ header-drawer {
   flex: 1 1 100%;
 }
 
+.cards+.cards {
+  margin-top: 4rem;
+}
+
 .cards .card>*+* {
   margin-top: 1.6rem;
 }
