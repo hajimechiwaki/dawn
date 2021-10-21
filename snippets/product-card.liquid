@@ -1,6 +1,6 @@
 
 
-<a href="{{ product_card_product.url | default: '#' }}" class="card">
+<a href="{{ product_card_product.url | default: '#' }}" class="card -canter">
   {%- if show_vendor -%}
     <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
     <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
@@ -16,7 +16,7 @@
 		<h3 class="card_title card_product_name">{{ product_card_product.title }}</h3>
 		{%- endif -%}
 		
-		<p class="card_product_title_sub">{{ product.metafields.mitosaya_fields.subtitle_jp }}</p>
+		<p class="card_product_title_sub">{{ product.metafields.mitosaya_fields.subtitle_jp | escape }}</p>
 	</div>
 
 </a>
