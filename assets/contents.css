@@ -840,18 +840,9 @@ img {
   border: 1px solid #f00;
 }
 
-.content_news_date {
-  -ms-flex-preferred-size: 10rem;
-  flex-basis: 10rem;
-}
-
-.content_news_tag {
-  -ms-flex-preferred-size: 10rem;
-  flex-basis: 10rem;
-}
-
 .content_news_title {
-  margin-left: auto;
+  -ms-flex-preferred-size: 60%;
+  flex-basis: 60%;
 }
 
 .content.vi {
