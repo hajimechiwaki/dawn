@@ -842,6 +842,10 @@ img {
   margin-left: 2rem;
 }
 
+.cols_instagram a {
+  display: block;
+}
+
 .content_inner {
   position: relative;
   width: 100%;
