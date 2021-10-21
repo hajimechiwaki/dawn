@@ -6,11 +6,11 @@
     <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
   {%- endif -%}
 
-	{%- if product_card_product.featured_media -%}
-	<div class="card_img img -cover {% if media_size == 'adapt' %} -r3x2{% elsif media_size == 'square' %} -r1x1{% elsif media_size == 'portrait' %} -r2x3{% elsif media_size == 'landscape' %} -r3x2{% endif %}{% if show_image_outline %} -outline{% endif %}{% if add_image_padding %} -pad{% endif %}">
+	<div class="card_img img -cover {% if media_size == 'adapt' %} -r3x2{% elsif media_size == 'square' %} -r1x1{% elsif media_size == 'portrait' %} -r2x3{% elsif media_size == 'landscape' %} -r3x2{% endif %}{% if show_image_outline %} -outline{% endif %}{% if add_image_padding %} -pad{% endif %}{% if product_card_product.featured_media == nil %} -blank{% endif %}">
+		{%- if product_card_product.featured_media -%}
 		<img data-src="{{ product_card_product.featured_media | img_url: '960x' }}" class="lazyload">
+		{%- endif -%}
 	</div>
-	{%- endif -%}
 	<div class="card_info">
 		{%- if product_card_product.title -%}
 		<h3 class="card_title -large">{{ product_card_product.title }}</h3>
