@@ -26,6 +26,12 @@ $(function(){
     arrows: false
   })
 
+  $('[data-spslide]').each(function(){
+    arrows: true,
+    dots: true,
+    fade: true,
+  })
+
 
 });
 
