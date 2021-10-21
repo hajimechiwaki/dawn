@@ -1052,6 +1052,16 @@ header-drawer {
   border: none;
 }
 
+#main-collection-filters {
+  position: relative;
+  z-index: 2;
+}
+
+#ProductGridContainer {
+  position: relative;
+  z-index: 1;
+}
+
 .spaced-section {
   margin-top: 0rem;
 }
