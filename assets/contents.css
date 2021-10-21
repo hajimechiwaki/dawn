@@ -1248,6 +1248,11 @@ header-drawer {
   font-size: 1.2rem;
 }
 
+.product_tax {
+  text-align: center;
+  margin-top: .8rem;
+}
+
 .product_information .product__description>*:not(script):not(meta):not(link)+* {
   margin-top: 3rem;
 }
