@@ -1,4 +1,15 @@
 {% comment %}
+
+<a href="{{ product_card_product.url | default: '#' }}" class="card">
+  {%- if show_vendor -%}
+    <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+    <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
+  {%- endif -%}
+</a>
+
+{% endcomment %}
+
+{% comment %}
     Renders a product card
 
     Accepts:
@@ -13,6 +24,8 @@
     Usage:
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
+
+
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
@@ -131,3 +144,5 @@
     </div>
   </div>
 </div>
+
+

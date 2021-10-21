@@ -1,3 +1,43 @@
+{%- liquid
+  assign products_to_display = section.settings.collection.all_products_count
+
+  if section.settings.collection.all_products_count > section.settings.products_to_show
+    assign products_to_display = section.settings.products_to_show
+    assign more_in_collection = true
+  endif
+-%}
+
+<div class="content">
+  <div class="content_inner">
+    {% if section.settings.title == blank %}
+    <h2 class="content_title">{{ section.settings.title | escape }}</h2>
+    {%- endif -%}
+    <div class="cols -has4 -gather">
+
+      {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+
+          {% render 'product-card',
+            product_card_product: product,
+            media_size: section.settings.image_ratio,
+            show_secondary_image: section.settings.show_secondary_image,
+            add_image_padding: section.settings.add_image_padding,
+            show_vendor: section.settings.show_vendor,
+            show_image_outline: section.settings.show_image_outline,
+            show_rating: section.settings.show_rating
+          %}
+
+      {%- endfor -%}
+
+    </div>
+    {%- if section.settings.show_view_all and section.settings.swipe_on_mobile and more_in_collection -%}
+    <a href="{{ section.settings.collection.url }}" class="btn">{{ 'sections.featured_collection.view_all' | t }}</a>
+    {%- endif -%}
+  </div>
+</div>
+
+
+{% comment %}
+
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
@@ -72,6 +112,8 @@
     </div>
   {%- endif -%}
 </div>
+
+{% endcomment %}
 
 {% schema %}
 {
