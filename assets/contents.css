@@ -217,6 +217,27 @@ hr {
   text-align: center;
 }
 
+.btn {
+  max-width: 48rem;
+  height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-base-outline-button-labels);
+  border: 1px solid currentColor;
+}
+
 img {
   image-rendering: smooth;
 }
