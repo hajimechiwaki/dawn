@@ -1,4 +1,4 @@
-{% comment %}
+
 
 <a href="{{ product_card_product.url | default: '#' }}" class="card">
   {%- if show_vendor -%}
@@ -7,7 +7,7 @@
   {%- endif -%}
 </a>
 
-{% endcomment %}
+
 
 {% comment %}
     Renders a product card
@@ -25,7 +25,7 @@
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
 
-
+{% comment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
@@ -144,5 +144,7 @@
     </div>
   </div>
 </div>
+
+{% endcomment %}
 
 
