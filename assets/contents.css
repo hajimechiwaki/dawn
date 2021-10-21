@@ -926,8 +926,8 @@ img {
 }
 
 .content_news_tag {
-  -ms-flex-preferred-size: 20%;
-  flex-basis: 20%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
 }
 
 .content_news_title {
@@ -1589,6 +1589,16 @@ header-drawer {
   .content_news a {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+  }
+
+  .content_news_date {
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+  }
+
+  .content_news_tag {
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
   }
 
   .content_news_title {
