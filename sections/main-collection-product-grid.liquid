@@ -25,7 +25,7 @@
     {%- if collection.products.size == 0 -%}
       <div class="content collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
         <div class="loading-overlay gradient"></div>
-          <div class="content_inner">
+          <div class="content_inner -large">
             <div class="title-wrapper center">
               <h2 class="title title--primary">
                 {{ 'sections.collection_template.empty' | t }}<br>
@@ -37,7 +37,7 @@
     {%- else -%}
       <div class="content collection page-width">
         <div class="loading-overlay gradient"></div>
-        <div class="content_inner">
+        <div class="content_inner -large">
           <div class="cols cards -has4" id="product-grid" data-id="{{ section.id }}">
             {%- for product in collection.products -%}
                 {% render 'product-card',
