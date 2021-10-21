@@ -32,12 +32,6 @@
         "show_text_below": false
       }
     },
-    "1634311099c0b2b4a0": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<hr>"
-      }
-    },
     "16343110734f066ed3": {
       "type": "custom-liquid",
       "settings": {
@@ -320,7 +314,6 @@
     "1634781646989d26c4",
     "video",
     "image_banner",
-    "1634311099c0b2b4a0",
     "16343110734f066ed3",
     "163309939390b4699a",
     "1633077112a56b9835",
