@@ -26,13 +26,36 @@ $(function(){
     arrows: false
   })
 
-  $('[data-spslide]').each(function(){
-    $(this).slick({
-      arrows: true,
-      dots: true,
-      fade: true,
-    })
+  $(window).on('resize orientalchange',function(){
+    checkbp();
+  }).on('scroll',function(){
+    checkbp();
   })
+
+
+  function checkbp(){
+      if($(window).width() > 480) {
+        unslick($('[data-spslide]'));
+      } else {
+        slickinit($('[data-spslide]'));
+      }
+  }
+
+  function slickinit(tgt){
+    tgt.each(function(){
+      $(this).slick({
+        arrows: true,
+        dots: true,
+        fade: true,
+      })
+    })
+  }
+
+  function unslick(tgt){
+    tgt.each(function(){
+      $(this).slick('unslick');
+    })
+  }
 
 
 });
