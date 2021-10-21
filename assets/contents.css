@@ -934,6 +934,7 @@ img {
 .content_news_title {
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
+  margin-top: .8rem;
 }
 
 .content.vi {
@@ -1606,6 +1607,7 @@ header-drawer {
   .content_news_title {
     -ms-flex-preferred-size: 60%;
     flex-basis: 60%;
+    margin-top: 0;
   }
 
   .grid {
