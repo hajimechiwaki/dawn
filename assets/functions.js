@@ -53,7 +53,9 @@ $(function(){
 
   function unslick(tgt){
     tgt.each(function(){
-      $(this).slick('unslick');
+      if( $(this).hasClass('slick-initialized') ){
+        $(this).slick('unslick');
+      }
     })
   }
 
