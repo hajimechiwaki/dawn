@@ -162,12 +162,21 @@
   object-fit: contain;
 }
 
-.slick-prev {
+.slick-arrow {
   width: 4rem;
   height: 4rem;
   position: absolute;
   top: 50%;
-  left: -.1rem;
+  font-size: 0;
+  border: 1px solid currentcolor;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: -.1rem;
+}
+
+.slick-next {
+  right: -.1rem;
 }
