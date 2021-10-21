@@ -1,9 +1,9 @@
-<div class="content cards -center background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="content -center background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
 	<div class="content_inner">
 		{% if section.settings.title != blank %}
 		<h2 class="content_title">{{ section.settings.title | escape }}</h2>
 		{% endif %}
-		<div class="cols -has{{ section.blocks.size }}{% if section.settings.column_alignment == 'center' %} -gather{% endif %}"{% if section.settings.swipe_on_mobile %} data-spslide{% endif %}>
+		<div class="cols -has{{ section.blocks.size }}{% if section.settings.column_alignment == 'center' %} -gather{% endif %} cards"{% if section.settings.swipe_on_mobile %} data-spslide{% endif %}>
 			{%- for block in section.blocks -%}
 			<a{%if section.settings.button_link %} href="{{ section.settings.button_link }}"{% endif %} class="card">
 				{%- if block.settings.image != blank -%}
