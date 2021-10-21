@@ -12,7 +12,7 @@
     {%- if section.settings.title -%}
     <h2 class="content_title -center">{{ section.settings.title | escape }}</h2>
     {%- endif -%}
-    <div class="cols -has4 -gather">
+    <div class="cols -has4 -gather cards">
 
       {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
 
