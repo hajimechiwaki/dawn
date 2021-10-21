@@ -13,7 +13,8 @@
 	{%- endif -%}
 	<div class="card_info">
 		{%- if product_card_product.title -%}
-		<h3 class="card_title">{{ product_card_product.title }}</h3>
+		<h3 class="card_title card_product_name">{{ product_card_product.title }}</h3>
+		<p class="card_product_title_sub">{%if collection.title == 'Eau de Vie' %}{{ product.metafields.mitosaya_fields.subtitle_en }}{% else %}{{ product.metafields.mitosaya_fields.subtitle_jp }}{% endif %}</p>
 		{%- endif -%}
 	</div>
 
