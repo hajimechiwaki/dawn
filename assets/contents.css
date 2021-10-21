@@ -508,14 +508,15 @@ img {
   border: 1px solid currentcolor;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+  z-index: 10;
 }
 
 .slick-prev {
-  left: -.1rem;
+  left: -2.1rem;
 }
 
 .slick-next {
-  right: -.1rem;
+  right: -2.1rem;
 }
 
 .cols {
