@@ -820,7 +820,7 @@ img {
   max-width: calc( 100% - 24px);
 }
 
-.cols[data-spclide] {
+.cols[data-spslide] {
   padding: 0 2rem;
 }
 
@@ -1541,7 +1541,7 @@ header-drawer {
     max-width: calc( 100% / 5 - 56px);
   }
 
-  .cols[data-spclide] {
+  .cols[data-spslide] {
     padding: 0;
   }
 
