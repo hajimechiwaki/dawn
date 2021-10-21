@@ -9,7 +9,7 @@
 
 <div class="content">
   <div class="content_inner -large">
-    {% if section.settings.title == blank %}
+    {%- if section.settings.title -%}
     <h2 class="content_title">{{ section.settings.title | escape }}</h2>
     {%- endif -%}
     <div class="cols -has4 -gather">
