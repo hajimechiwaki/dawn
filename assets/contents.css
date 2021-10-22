@@ -990,7 +990,7 @@ img {
   margin-bottom: 7rem;
 }
 
-.content_tile .tile_item.-landscape+.content_tile .tile_item.-landscape {
+.content_tile .-landscape+.-landscape {
   margin-top: -7rem;
 }
 
