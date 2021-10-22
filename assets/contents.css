@@ -967,6 +967,10 @@ img {
   width: 100%;
 }
 
+.content_tile .img {
+  width: 100%;
+}
+
 .inlines {
   line-height: 1.1;
   margin: 0 -10px -16px;
@@ -1628,6 +1632,10 @@ header-drawer {
     -ms-flex-preferred-size: 60%;
     flex-basis: 60%;
     margin-top: 0;
+  }
+
+  .content_tile .img {
+    max-width: 40rem;
   }
 
   .grid {
