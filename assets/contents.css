@@ -980,6 +980,20 @@ img {
   margin-left: 5rem;
 }
 
+.content_tile .tile_item.-portrait {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content_tile .tile_item.-landscape {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.content_tile .tile_item.-landscape+.content_tile .tile_item.-landscape {
+  margin-top: -7rem;
+}
+
 .content_tile .img {
   width: 100%;
 }
