@@ -973,8 +973,13 @@ img {
   margin-left: auto;
 }
 
-.content_tile .img {
+.content_tile .tile_item {
   background-color: rgba(0,0,0,0.1);
+  padding: 3rem 5rem;
+}
+
+.content_tile .img {
+  border: 1px solid #000;
   width: 100%;
 }
 
