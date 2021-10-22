@@ -1647,6 +1647,10 @@ header-drawer {
     margin-top: 0;
   }
 
+  .content_tile {
+    max-width: 100rem;
+  }
+
   .content_tile .tile_item {
     max-width: 40rem;
   }
