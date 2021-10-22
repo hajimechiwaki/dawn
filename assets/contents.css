@@ -967,6 +967,12 @@ img {
   width: 100%;
 }
 
+.content_tile {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .content_tile .img {
   background-color: rgba(0,0,0,0.1);
   width: 100%;
@@ -1633,6 +1639,10 @@ header-drawer {
     -ms-flex-preferred-size: 60%;
     flex-basis: 60%;
     margin-top: 0;
+  }
+
+  .content_tile {
+    max-width: 90rem;
   }
 
   .content_tile .img {
