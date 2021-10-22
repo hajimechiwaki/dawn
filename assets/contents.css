@@ -975,13 +975,13 @@ img {
 
 .content_tile .tile_item {
   background-color: rgba(0,0,0,0.1);
-  padding: 3rem 5rem;
   width: 100%;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
 
 .content_tile .img {
   width: 100%;
-  border: 1px solid #000;
 }
 
 .inlines {
