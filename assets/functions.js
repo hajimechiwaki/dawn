@@ -34,6 +34,12 @@ $(function(){
     checkbp();
   })
 
+  $('[data-tile]').each(function(){
+    $(this).masonry({
+      itemSelector: '.tile_item'
+    })
+  })
+
 
   function checkbp(){
       if($(window).width() > 480) {
