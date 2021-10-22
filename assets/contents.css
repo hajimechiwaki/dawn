@@ -1652,7 +1652,7 @@ header-drawer {
   }
 
   .content_tile .tile_item {
-    max-width: 40rem;
+    max-width: calc( 50% - 100px);
   }
 
   .grid {
