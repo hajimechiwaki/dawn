@@ -990,10 +990,6 @@ img {
   margin-bottom: 7rem;
 }
 
-.content_tile .-landscape+.-landscape {
-  margin-top: -7rem;
-}
-
 .content_tile .img {
   width: 100%;
 }
