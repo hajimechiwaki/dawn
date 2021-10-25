@@ -267,6 +267,10 @@ img {
   padding-top: 66.66%;
 }
 
+.img.-r4x3::before {
+  padding-top: 75%;
+}
+
 .img.-r3x4::before {
   padding-top: 133.33%;
 }
