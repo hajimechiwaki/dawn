@@ -1461,6 +1461,10 @@ header-drawer {
   font-size: 1.2rem;
 }
 
+.article_header_date {
+  display: block;
+}
+
 .article_cols {
   position: relative;
 }
@@ -1483,6 +1487,10 @@ header-drawer {
 
 .article_cols_titles_sub {
   font-size: 1.2rem;
+}
+
+.article_cols_date {
+  display: block;
 }
 
 @media screen and (min-width: 481px) {
