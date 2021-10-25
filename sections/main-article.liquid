@@ -1,3 +1,5 @@
+{% comment %}
+
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
@@ -243,6 +245,8 @@
   </div>
   {%- endif -%}
 </article>
+
+{% endcomment %}
 
 <script type="application/ld+json">
   {
