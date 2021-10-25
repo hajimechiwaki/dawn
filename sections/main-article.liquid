@@ -1,18 +1,3 @@
-  {%- for block in section.blocks -%}
-    {%- case block.type -%}
-      {%- when '@app' -%}
-      {%- when 'featured_image'-%}
-      {%- when 'title'-%}
-      {%- when 'content'-%}
-          <div class="content">
-            <div class="content_inner -narrow">
-              {{ article.content }}
-            </div>
-          </div>
-      {%- when 'share' -%}
-    {%- endcase -%}
-  {%- endfor -%}
-
 {% comment %}
 
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
