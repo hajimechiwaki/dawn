@@ -42,10 +42,17 @@
       ],
       "settings": {
       }
+    },
+    "1635158561ff60aaa7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
     "1635142182671ce15d",
-    "main"
+    "main",
+    "1635158561ff60aaa7"
   ]
 }
