@@ -1,19 +1,37 @@
 {
   "sections": {
+    "1635142182671ce15d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"content article_header\">\n\t<div class=\"content_bg\">\n\t\t<img src=\"https:\/\/placehold.jp\/1200x1200.png\">\n\t<\/div>\n\t<div class=\"content_inner\">\n\t\t<div class=\"content_body -center\">\n\t\t\t<div class=\"article_header_labels\">\n\t\t\t\t<p class=\"article_header_labels_main\">blog name<\/p>\n\t\t\t\t<p class=\"article_header_labels_sub\">tag name<\/p>\n\t\t\t<\/div>\n\t\t\t<div class=\"article_header_titles\">\n\t\t\t\t<h1 class=\"article_header_titles_main\">Article title Article title Article title Article title Article title Article title<\/h1>\n\t\t\t<\/div>\n\n\t\t\t<time class=\"article_header_date\">2021.10.25<\/time>\n\t\t<\/div>\n\t<\/div>\n<\/div>"
+      }
+    },
     "main": {
       "type": "main-article",
       "blocks": {
         "featured_image": {
-          "type": "featured_image"
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
         },
         "title": {
-          "type": "title"
-        },
-        "content": {
-          "type": "content"
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
         },
         "share": {
-          "type": "share"
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -21,10 +39,13 @@
         "title",
         "share",
         "content"
-      ]
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
+    "1635142182671ce15d",
     "main"
   ]
 }
