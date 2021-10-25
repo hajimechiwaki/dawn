@@ -1,3 +1,16 @@
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when '@app' -%}
+      {%- when 'featured_image'-%}
+      {%- when 'title'-%}
+      {%- when 'content'-%}
+          <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
+              {{ article.content }}
+          </div>
+      {%- when 'share' -%}
+    {%- endcase -%}
+  {%- endfor -%}
+
 {% comment %}
 
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
