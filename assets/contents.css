@@ -1437,35 +1437,23 @@ header-drawer {
   background-color: #eaf4f2;
 }
 
+.article_header .content_body>*+* {
+  margin-top: 3.2rem;
+}
+
+.article_header_labels {
+  line-height: 1.5;
+}
+
 .article_header_labels_main {
   font-size: 2.4rem;
 }
 
-.article_header_summary {
-  margin-top: 4rem;
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-.article_header_titles {
-  margin-top: 2rem;
-}
-
 .article_header_titles_main {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 
 .article_header_titles_sub {
-  font-size: 1.2rem;
-}
-
-.article_header_alcohol {
-  margin-top: 2rem;
-  font-size: 1.2rem;
-}
-
-.article_header_variants {
-  margin-top: 2rem;
   font-size: 1.2rem;
 }
 
