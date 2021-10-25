@@ -1422,6 +1422,7 @@ header-drawer {
 
 .article_header .content_body {
   width: 100%;
+  min-height: 41rem;
   padding: 4rem 1rem;
   background-color: #eaf4f2;
 }
