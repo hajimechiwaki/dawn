@@ -3,7 +3,7 @@
     "1635142182671ce15d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"content article_header\">\n\t<div class=\"content_bg\">\n\t\t<img src=\"https:\/\/placehold.jp\/1200x1200.png\">\n\t<\/div>\n\t<div class=\"content_inner\">\n\t\t<div class=\"content_body -center\">\n\t\t\t<div class=\"article_header_labels\">\n\t\t\t\t<p class=\"article_header_labels_main\">blog name<\/p>\n\t\t\t\t<p class=\"article_header_labels_sub\">tag name<\/p>\n\t\t\t<\/div>\n\t\t\t<div class=\"article_header_titles\">\n\t\t\t\t<h1 class=\"article_header_titles_main\">Article title Article title Article title Article title Article title Article title<\/h1>\n\t\t\t<\/div>\n\n\t\t\t<time class=\"article_header_date\">2021.10.25<\/time>\n\t\t<\/div>\n\t<\/div>\n<\/div>"
+        "custom_liquid": "<div class=\"content article_header\">\n\t{%- if article.image -%}\n\t<div class=\"content_bg\">\n\t\t<img src=\"{{ article.image | img_url: 'master' }}\" class=\"lazyload bgimg\">\n\t<\/div>\n\t{%- endif -%}\n\t<div class=\"content_inner\">\n\t\t<div class=\"content_body -center\">\n\t\t\t<div class=\"article_header_labels\">\n\t\t\t\t<p class=\"article_header_labels_main\">{{ blog.title }}<\/p>\n\t\t\t\t{%- if article.tags -%}\n\t\t\t\t<p class=\"article_header_labels_sub\">\n\t\t\t\t{% for tag in article.tags %}{{ tag }}{% endfor %}\n\t\t\t\t<\/p>\n\t\t\t\t{%- endif -%}\n\t\t\t<\/div>\n\t\t\t<div class=\"article_header_titles\">\n\t\t\t\t<h1 class=\"article_header_titles_main\">{{ article.title | escape }}<\/h1>\n\t\t\t<\/div>\n\t\t\t<time class=\"article_header_date\">{{ article.published_at | time_tag: '%Y.%m.%d' }}<\/time>\n\t\t<\/div>\n\t<\/div>\n<\/div>"
       }
     },
     "main": {
