@@ -101,6 +101,12 @@
       "settings": {
         "custom_liquid": "<hr>"
       }
+    },
+    "163515884849c2c4e5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
@@ -109,6 +115,7 @@
     "main",
     "163515872342fc29b2",
     "1635158625c535d118",
-    "1635158767d54fc3d0"
+    "1635158767d54fc3d0",
+    "163515884849c2c4e5"
   ]
 }
