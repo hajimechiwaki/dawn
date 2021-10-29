@@ -976,8 +976,7 @@ img {
 .content_tile .tile_item {
   background-color: rgba(0,0,0,0.1);
   width: 100%;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  margin: 4rem 5rem;
 }
 
 .content_tile .tile_item.-portrait {
