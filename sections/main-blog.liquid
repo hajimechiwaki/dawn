@@ -3,6 +3,7 @@
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
 
+{% comment %}
 {%- paginate blog.articles by 6 -%}
 
   <div class="main-blog page-width">
@@ -21,6 +22,7 @@
     {%- endif -%}
   </div>
 {%- endpaginate -%}
+{% endcomment %}
 
 {% schema %}
 {
