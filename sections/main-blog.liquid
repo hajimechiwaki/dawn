@@ -1,5 +1,5 @@
 <div class="content">
-  <div class="content_inner">
+  <div class="content_inner -large">
     <h1 class="content_title">{{ blog.title | escape }}</h1>
     <div class="cols cards -has3{% if section.settings.layout == 'collage' %} -collage{% endif %}">
       {%- for article in blog.articles -%}
