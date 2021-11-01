@@ -5,8 +5,8 @@
     {%- endif -%}
   </figure>
   <div class="card_info">
-    <div class="card_label"></div>
-    <div class="card_date">{{- article.published_at | time_tag: '%Y.%m.%d' -}}</div>
+    {% if article.tags %}<div class="card_label">{% for tag in article.tags %}{{ tag }}{% endfor %}</div>{% endif %}
+    {% if show_date %}<div class="card_date">{{- article.published_at | time_tag: '%Y.%m.%d' -}}</div>{% endif %}
   </div>
   <div class="card_body">
     <h3 class="card_title">{{ article.title | escape }}</h3>
