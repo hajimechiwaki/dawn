@@ -1,4 +1,4 @@
-<a href="{{ article.url }}" aria-labelledby="Article-{{ article.id }}">
+<a href="{{ article.url }}" class="card" aria-labelledby="Article-{{ article.id }}">
   <figure class="card_img img{% if image_height == 'small' %} -r3x2{% elsif image_height == 'medium' %} -r1x1{% elsif image_height == 'large' %} -r2x3{% endif %}  -cover">
     {%- if show_image == true and article.image -%}
       <img data-src="{{ article.image.src | img_url: '960x' }}" alt="{{ article.image.src.alt | escape }}" class="lazyload">
