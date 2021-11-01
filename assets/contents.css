@@ -1390,8 +1390,23 @@ header-drawer {
   font-size: 2rem;
 }
 
+.cards .card_title.-medium {
+  font-size: 1.8rem;
+}
+
 .cards .card_title_sub {
   margin-top: .8rem;
+}
+
+.cards .card_summary {
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards .card_date {
+  margin-left: auto;
 }
 
 .article {
