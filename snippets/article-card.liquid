@@ -6,7 +6,7 @@
   </figure>
   <div class="card_info">
     <div class="card_label"></div>
-    <div class="card_date">{{- article.published_at | time_tag: format: 'date' -}}</div>
+    <div class="card_date">{{- article.published_at | time_tag: '%Y.%m.%d' -}}</div>
   </div>
   <div class="card_body">
     <h3 class="card_title">{{ article.title | escape }}</h3>
