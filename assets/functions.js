@@ -8,10 +8,8 @@
 $(function(){
 
   var confirm = $.cookie('mitosaya_confirmination');
-  if(confirm){
-    alert('aru')
-  } else {
-    alert('nai')
+  if(!confirm){
+    $('#modal_confirmination').addClass('-show');
   }
 
 
