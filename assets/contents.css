@@ -1384,6 +1384,7 @@ header-drawer {
 
 .cards .card.-halfround {
   border-radius: 48rem 48rem 0 0;
+  overflow: hidden;
 }
 
 .cards .card>*+* {
