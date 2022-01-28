@@ -1587,6 +1587,22 @@ header-drawer {
   height: 4rem;
 }
 
+html[lang="ja"] *[datalang="ja"] {
+  display: block;
+}
+
+html[lang="ja"] *[datalang="en"] {
+  display: none;
+}
+
+html[lang="en"] *[datalang="ja"] {
+  display: none;
+}
+
+html[lang="en"] *[datalang="en"] {
+  display: block;
+}
+
 @media screen and (min-width: 481px) {
   body {
     min-width: 1200px;
