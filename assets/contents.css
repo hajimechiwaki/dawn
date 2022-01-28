@@ -1544,6 +1544,10 @@ header-drawer {
   visibility: visible;
 }
 
+.modal.-show ~ {
+  pointer-events: none;
+}
+
 .modal_confirmination_body {
   background-color: #eaf4f2;
   max-width: 32rem;
