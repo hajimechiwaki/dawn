@@ -1382,6 +1382,10 @@ header-drawer {
   margin-top: 4rem;
 }
 
+.cards .card.-halfround {
+  border-radius: 10rem 10rem 0 0;
+}
+
 .cards .card>*+* {
   margin-top: 1.6rem;
 }
