@@ -1558,6 +1558,12 @@ header-drawer {
   margin-top: 4rem;
 }
 
+.modal_confirmination_title {
+  max-width: 18rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .modal_confirmination_btns {
   display: -webkit-box;
   display: -ms-flexbox;
