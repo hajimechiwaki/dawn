@@ -1587,19 +1587,19 @@ header-drawer {
   height: 4rem;
 }
 
-html[lang="ja"] *[datalang="ja"] {
+html[lang="ja"] *[data-lang="ja"] {
   display: block;
 }
 
-html[lang="ja"] *[datalang="en"] {
+html[lang="ja"] *[data-lang="en"] {
   display: none;
 }
 
-html[lang="en"] *[datalang="ja"] {
+html[lang="en"] *[data-lang="ja"] {
   display: none;
 }
 
-html[lang="en"] *[datalang="en"] {
+html[lang="en"] *[data-lang="en"] {
   display: block;
 }
 
