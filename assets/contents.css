@@ -1585,6 +1585,12 @@ header-drawer {
   justify-content: center;
   border: 1px solid currentcolor;
   height: 4rem;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.modal_confirmination_btn:hover {
+  opacity: .5;
 }
 
 html[lang="ja"] *[data-lang="ja"] {
