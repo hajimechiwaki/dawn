@@ -12,6 +12,10 @@ $(function(){
     $('#modal_confirmination').addClass('-show');
   }
 
+  $('#modal_confirmination_btn_true').on('click',function(){
+    $('#modal_confirmination').removeClass('-show');
+  });
+
 
   objectFitImages();
 
