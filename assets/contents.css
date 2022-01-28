@@ -1384,6 +1384,7 @@ header-drawer {
 
 .cards .card.-halfround {
   border-radius: 48rem 48rem 0 0;
+  overflow: hidden;
 }
 
 .cards .card>*+* {
@@ -1505,6 +1506,74 @@ header-drawer {
 
 .article_cols_date {
   display: block;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .5s, visibility 0s ease .5s;
+  transition: opacity .5s, visibility 0s ease .5s;
+}
+
+.modal.-show {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal_confirmination_body {
+  background-color: #eaf4f2;
+  max-width: 32rem;
+  width: calc( 100% - 4rem);
+  padding: 4rem;
+  color: #534841;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.modal_confirmination_body>*+* {
+  margin-top: 4rem;
+}
+
+.modal_confirmination_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.modal_confirmination_btn {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  margin: 0 1rem;
 }
 
 @media screen and (min-width: 481px) {
