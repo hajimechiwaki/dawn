@@ -13,6 +13,7 @@ $(function(){
   }
 
   $('#modal_confirmination_btn_true').on('click',function(){
+    $.cookie('mitosaya_confirmination', '1', { expires: 365 });
     $('#modal_confirmination').removeClass('-show');
   });
 
