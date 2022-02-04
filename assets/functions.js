@@ -8,9 +8,13 @@
 $(function(){
 
   var confirm = $.cookie('mitosaya_confirmination');
-  if(!confirm){
-    $('#modal_confirmination').addClass('-show');
-  }
+  $(window).on('load',function(){
+    $('#modal_confirmination').addClass('-init');
+    if(!confirm){
+      $('#modal_confirmination').addClass('-show');
+    }
+  })
+
 
   $('#modal_confirmination_btn_true').on('click',function(){
     $.cookie('mitosaya_confirmination', '1', { expires: 365 });

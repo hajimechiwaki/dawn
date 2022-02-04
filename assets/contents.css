@@ -1517,9 +1517,7 @@ header-drawer {
   width: 100%;
   height: 100%;
   z-index: 10000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -1533,15 +1531,17 @@ header-drawer {
   background-color: rgba(0,0,0,0.5);
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: translateX(1000%);
-  transform: translateX(1000%);
-  -webkit-transition: opacity .5s, visibility 0s ease .5s transform 0s ease 1s;
-  transition: opacity .5s, visibility 0s ease .5s transform 0s ease 1s;
+  -webkit-transition: opacity .5s, visibility 0s ease .5s;
+  transition: opacity .5s, visibility 0s ease .5s;
+}
+
+.modal.-init {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .modal.-show {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
   opacity: 1;
