@@ -8,7 +8,7 @@
       "login_form_error": "パスワードが正しくありません。",
       "login_form_submit": "ストアに入る",
       "admin_link_html": "あなたはストアオーナーですか？<a href=\"\/admin\" class=\"link underlined-link\">こちらからログインする<\/a>",
-      "powered_by_shopify_html": "このショップでは{{ shopify }}を使用する予定です"
+      "powered_by_shopify_html": " "
     },
     "social": {
       "alt_text": {
@@ -426,6 +426,9 @@
       "product_type": {
         "label": "Type"
       }
+    },
+    "links": {
+      "powered_by_shopify": " "
     }
   }
 }
