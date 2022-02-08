@@ -247,16 +247,16 @@
       "payment": "決済方法"
     },
     "featured_blog": {
-      "view_all": "すべてを表示する",
+      "view_all": "View All",
       "onboarding_title": "ブログ記事",
       "onboarding_content": "お客様にブログ記事のサマリーを提供する"
     },
     "featured_collection": {
-      "view_all": "すべてを表示する",
+      "view_all": "View All",
       "view_all_label": "{{ collection_name }}コレクションの商品をすべて表示する"
     },
     "collection_list": {
-      "view_all": "すべてを表示する"
+      "view_all": "View All"
     },
     "collection_template": {
       "title": "コレクション",
