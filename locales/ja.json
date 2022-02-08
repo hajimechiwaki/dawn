@@ -411,7 +411,7 @@
     },
     "filters": {
       "availability": {
-        "label": "Stock",
+        "label": "Stock Status",
         "value": {
           "in_stock": "In Stock",
           "out_of_stock": "Out of Stock"
