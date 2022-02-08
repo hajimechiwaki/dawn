@@ -156,14 +156,14 @@
         "one": "{{ count }} Selected",
         "other": "{{ count }} Selected"
       },
-      "max_price": "最高価格は{{ price }}です",
+      "max_price": "The Highest Price in{{ price }}",
       "product_count": {
-        "one": "{{ count }} of {{ product_count }}",
-        "other": "{{ count }} of {{ product_count }}"
+        "one": "{{ count }} of {{ product_count }} Product",
+        "other": "{{ count }} of {{ product_count }} Products"
       },
       "product_count_simple": {
-        "one": "{{ count }}",
-        "other": "{{ count }}"
+        "one": "{{ count }} Product",
+        "other": "{{ count }} Products"
       },
       "reset": "Reset",
       "sort_button": "Sort",
