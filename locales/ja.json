@@ -150,8 +150,8 @@
       "clear_all": "すべてクリア",
       "from": "差出人",
       "filter_and_sort": "絞り込みと並び替え",
-      "filter_by_label": "絞り込み:",
-      "filter_button": "絞り込む",
+      "filter_by_label": "Filter:",
+      "filter_button": "Filter",
       "filters_selected": {
         "one": "{{ count }}個が選択されました",
         "other": "{{ count }}個が選択されました"
@@ -166,8 +166,8 @@
         "other": "{{ count }}個の商品"
       },
       "reset": "リセット",
-      "sort_button": "並び替え",
-      "sort_by_label": "並び替え: ",
+      "sort_button": "Sort",
+      "sort_by_label": "Sort: ",
       "to": "受取人",
       "clear_filter": "絞り込みをクリア"
     }
