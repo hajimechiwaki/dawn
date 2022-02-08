@@ -189,7 +189,7 @@
       }
     },
     "cart": {
-      "cart": "カート"
+      "cart": "Cart"
     },
     "contact": {
       "form": {
@@ -203,7 +203,7 @@
       }
     },
     "404": {
-      "title": "ページが見つかりません",
+      "title": "Page not found",
       "subtext": "404"
     }
   },
