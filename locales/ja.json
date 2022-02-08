@@ -145,11 +145,11 @@
       "label": "メディアギャラリー"
     },
     "facets": {
-      "apply": "適用",
-      "clear": "クリア",
-      "clear_all": "すべてクリア",
-      "from": "差出人",
-      "filter_and_sort": "絞り込みと並び替え",
+      "apply": "Apply",
+      "clear": "Clear",
+      "clear_all": "Clear All",
+      "from": "From",
+      "filter_and_sort": "Filter and Sort",
       "filter_by_label": "Filter:",
       "filter_button": "Filter",
       "filters_selected": {
@@ -165,11 +165,11 @@
         "one": "{{ count }}個の商品",
         "other": "{{ count }}個の商品"
       },
-      "reset": "リセット",
+      "reset": "Reset",
       "sort_button": "Sort",
       "sort_by_label": "Sort: ",
-      "to": "受取人",
-      "clear_filter": "絞り込みをクリア"
+      "to": "To",
+      "clear_filter": "Clear Filter"
     }
   },
   "templates": {
