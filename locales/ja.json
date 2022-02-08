@@ -408,6 +408,24 @@
         "date_ascending": "新着順（古ー新）",
         "date_descending": "新着順（新ー古）"
       }
+    },
+    "filters": {
+      "availability": {
+        "label": "Stock",
+        "value": {
+          "in_stock": "In Stock",
+          "out_of_stock": "Out of Stock"
+        }
+      },
+      "vendor": {
+        "label": "Brand"
+      },
+      "price": {
+        "label": "Price"
+      },
+      "product_type": {
+        "label": "Type"
+      }
     }
   }
 }
