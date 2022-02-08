@@ -395,5 +395,19 @@
       "copy_code_success": "コードは正常にコピーされました",
       "print_gift_card": "印刷する"
     }
+  },
+  "shopify": {
+    "collections": {
+      "sorting": {
+        "manual": "リコメンド",
+        "best_selling": "人気順",
+        "az": "A-Z",
+        "za": "Z-A",
+        "price_ascending": "価格順（低ー高）",
+        "price_descending": "価格順（高ー低）",
+        "date_ascending": "新着順（古ー新）",
+        "date_descending": "新着順（新ー古）"
+      }
+    }
   }
 }
