@@ -99,7 +99,7 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "ADD TO CART",
+      "add_to_cart": "Add to Cart",
       "description": "商品説明",
       "on_sale": "セール",
       "product_variants": "商品バリエーション",
@@ -158,12 +158,12 @@
       },
       "max_price": "The Highest Price in{{ price }}",
       "product_count": {
-        "one": "{{ count }} of {{ product_count }} Product",
-        "other": "{{ count }} of {{ product_count }} Products"
+        "one": "{{ count }} of {{ product_count }} Item",
+        "other": "{{ count }} of {{ product_count }} Items"
       },
       "product_count_simple": {
-        "one": "{{ count }} Product",
-        "other": "{{ count }} Products"
+        "one": "{{ count }} Item",
+        "other": "{{ count }} Items"
       },
       "reset": "Reset",
       "sort_button": "Sort",
@@ -181,7 +181,7 @@
       },
       "title": "検索結果",
       "page": "ページ",
-      "products": "商品管理",
+      "products": "Products",
       "search_for": "「{{ terms }}」を検索",
       "results_with_count_and_term": {
         "one": "「{{ terms }}」の検索結果{{ count }}件",
@@ -368,7 +368,7 @@
       "discount": "ディスカウント",
       "shipping": "配送",
       "tax": "税",
-      "product": "商品",
+      "product": "Product",
       "sku": "SKU",
       "price": "商品価格",
       "quantity": "数量",
