@@ -1,3 +1,13 @@
+{% assign product_title_def = product_card_product.title %}
+{%if request.locale.iso_code== 'en'%}
+  {% assign product_title = product_card_product.metafields.mitosaya_fields.title_en %}
+  {% assign product_title_sub = product_card_product.metafields.mitosaya_fields.subtitle_en %}
+{% else %}
+  {% assign product_title = product_card_product.metafields.mitosaya_fields.title_ja %}
+  {% assign product_title_sub = product_card_product.metafields.mitosaya_fields.subtitle_ja %}
+{%endif%}
+
+
 
 
 <a href="{{ product_card_product.url | default: '#' }}" class="card -center -halfround">
@@ -13,9 +23,9 @@
 	</div>
 	<div class="card_info">
 		{%- if product_card_product.title -%}
-		<h3 class="card_title -large">{{ product_card_product.title }}</h3>
+		<h3 class="card_title -large">{{ product_title }}</h3>
 		{%- endif -%}
-		<p class="card_title_sub">{{ product_card_product.metafields.mitosaya_fields.subtitle_jp | escape }}</p>
+		<p class="card_title_sub">{{ product_title_sub }}</p>
 	</div>
 
 </a>
