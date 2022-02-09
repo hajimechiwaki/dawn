@@ -1449,6 +1449,10 @@ header-drawer {
   overflow: hidden;
 }
 
+.cards .card.-halfround .card_img img {
+  border-radius: 48rem 48rem 0 0;
+}
+
 .cards .card>*+* {
   margin-top: 1.6rem;
 }
