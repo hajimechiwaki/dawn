@@ -234,23 +234,23 @@ hr {
 }
 
 .-mt00 {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 .-mt10 {
-  margin-top: 1rem;
+  margin-top: 1rem !important;
 }
 
 .-mt20 {
-  margin-top: 2rem;
+  margin-top: 2rem !important;
 }
 
 .-mt40 {
-  margin-top: 4rem;
+  margin-top: 4rem !important;
 }
 
 .-mt60 {
-  margin-top: 4rem;
+  margin-top: 6rem !important;
 }
 
 .btn {
