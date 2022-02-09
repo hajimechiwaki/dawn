@@ -122,6 +122,13 @@
     {%- endif -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+
+    {{ 'apps.css' | asset_url | stylesheet_tag }}
+    {{ 'contents.css' | asset_url | stylesheet_tag }}
+    <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'apps.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'functions.js' | asset_url }}" defer="defer"></script>
+    
   </head>
 
   <body class="gradient">
@@ -185,12 +192,6 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-
-    {{ 'apps.css' | asset_url | stylesheet_tag }}
-    {{ 'contents.css' | asset_url | stylesheet_tag }}
-    <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'apps.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'functions.js' | asset_url }}" defer="defer"></script>
 
   </body>
 </html>
