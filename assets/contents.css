@@ -217,6 +217,42 @@ hr {
   text-align: center;
 }
 
+.-git00>*+* {
+  margin-top: 0;
+}
+
+.-git20>*+* {
+  margin-top: 2rem;
+}
+
+.-git40>*+* {
+  margin-top: 4rem;
+}
+
+.-git60>*+* {
+  margin-top: 6rem;
+}
+
+.-mt00 {
+  margin-top: 0;
+}
+
+.-mt10 {
+  margin-top: 1rem;
+}
+
+.-mt20 {
+  margin-top: 2rem;
+}
+
+.-mt40 {
+  margin-top: 4rem;
+}
+
+.-mt60 {
+  margin-top: 4rem;
+}
+
 .btn {
   max-width: 29.5rem;
   width: 100%;
