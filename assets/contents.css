@@ -1064,6 +1064,10 @@ img {
   justify-content: center;
 }
 
+*+.content_pagenation {
+  margin-top: 6rem;
+}
+
 .content_pagenation ul {
   display: -webkit-box;
   display: -ms-flexbox;
