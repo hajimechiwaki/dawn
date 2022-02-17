@@ -36,7 +36,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "TASTE",
-        "collection": "all",
+        "collection": "new-arrival",
         "products_to_show": 8,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -140,7 +140,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/DSC3429.jpg",
             "title": "Recipe",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": ""
           }
         },
         "796f9701-1b57-47bd-856c-f2c3af306564": {
@@ -148,7 +148,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/DSC5921.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": ""
           }
         }
       },
@@ -187,7 +187,7 @@
         "1633077112a56b9835-1": {
           "type": "text",
           "settings": {
-            "text": "<p>ABOUT MITOSAYA<\/p><p>MISSION<\/p><p>MAP<\/p><p>BRIEF HISTORY<\/p><p>TEAM\/MEMBER<\/p><p>AWARDS<\/p><p>PROJECTS<\/p><p>COMPANY<\/p><p><\/p><p>mitosaya薬草園蒸留所<br\/>〒298-0216 千葉県夷隅郡大多喜町大多喜486<br\/>e-mail. info@mitosaya.com<br\/>tel. 0470 64 6041<\/p>"
+            "text": "<p>ABOUT<\/p><p>BRIEF HISTORY<\/p><p>TEAM\/MEMBER<\/p><p>PROJECTS<\/p><p>COMPANY<\/p>"
           }
         }
       },
@@ -196,7 +196,7 @@
         "1633077112a56b9835-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home_map_img_01.png",
+        "image": "shopify:\/\/shop_images\/mitosaya_map_20220216.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
