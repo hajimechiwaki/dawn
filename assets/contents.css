@@ -1159,6 +1159,10 @@ header-drawer {
   width: 25%;
 }
 
+#MainContent table .address {
+  width: 50%;
+}
+
 #shopify-section-footer {
   margin-top: 6rem;
   padding: 0 20px;
