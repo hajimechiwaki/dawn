@@ -48,8 +48,10 @@ $(function(){
   })
 
   $('[data-tile]').each(function(){
-    $(this).masonry({
-      itemSelector: '.tile_item'
+    $(this).imagesLoaded( function() {
+      $(this).masonry({
+        itemSelector: '.tile_item'
+      })
     })
   })
 
