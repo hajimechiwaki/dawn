@@ -1127,6 +1127,17 @@ header-drawer {
   padding: 0 20px;
 }
 
+#MainContent .table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.4rem;
+  border-top: 1px solid rgba(83,72,65,0.2);
+  border-bottom: 1px solid rgba(83,72,65,0.2);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 #shopify-section-footer {
   margin-top: 6rem;
   padding: 0 20px;
