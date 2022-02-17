@@ -49,7 +49,8 @@ $(function(){
 
   $('[data-tile]').each(function(){
     $(this).imagesLoaded().done( function( instance ) {
-      console.log('all images successfully loaded');
+      console.log(instance)
+      //console.log('all images successfully loaded');
     })
   })
 
