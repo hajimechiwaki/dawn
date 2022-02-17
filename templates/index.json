@@ -257,6 +257,12 @@
         "swipe_on_mobile": false
       }
     },
+    "1645085228cce53c79": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>"
+      }
+    },
     "16330768090bd2aeee": {
       "type": "newsletter",
       "blocks": {
@@ -290,6 +296,7 @@
     "1633077112a56b9835",
     "163309843462365852",
     "16330754661e6bdadf",
+    "1645085228cce53c79",
     "16330768090bd2aeee"
   ]
 }
