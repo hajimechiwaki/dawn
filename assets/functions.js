@@ -48,11 +48,9 @@ $(function(){
   })
 
 
-  $('[data-tile]').each(function(){
-    $(this).imagesLoaded().done( function( instance ) {
-      $(instance.elements[0]).masonry({
-        itemSelector: '.tile_item'
-      })
+  $('#product_imgs').imagesLoaded().done( function( instance ) {
+    $(instance.elements[0]).masonry({
+      itemSelector: '.tile_item'
     })
   })
 
