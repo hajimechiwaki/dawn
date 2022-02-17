@@ -1138,6 +1138,10 @@ header-drawer {
   box-shadow: none;
 }
 
+#MainContent table th {
+  width: 25%;
+}
+
 #shopify-section-footer {
   margin-top: 6rem;
   padding: 0 20px;
