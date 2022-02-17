@@ -49,7 +49,7 @@ $(function(){
 
 
   $('#product_imgs').imagesLoaded().done( function( instance ) {
-    $('#product_imgs').masonry({
+    $(instance.elements[0]).masonry({
       itemSelector: '.tile_item'
     })
   })
