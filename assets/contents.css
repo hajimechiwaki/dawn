@@ -1145,6 +1145,11 @@ header-drawer {
   border-left: 0;
 }
 
+#MainContent table th a,
+#MainContent table td a {
+  text-decoration: underline;
+}
+
 #MainContent table th {
   width: 25%;
 }
