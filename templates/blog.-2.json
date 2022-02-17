@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "layout": "grid",
         "show_image": true,
@@ -9,9 +10,16 @@
         "show_date": true,
         "show_author": false
       }
+    },
+    "16450801723ce69937": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "てst"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16450801723ce69937"
   ]
 }
