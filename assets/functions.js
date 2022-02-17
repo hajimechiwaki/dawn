@@ -48,12 +48,16 @@ $(function(){
   })
 
   $('[data-tile]').each(function(){
-    $(this).imagesLoaded( function() {
-      $(this).masonry({
-        itemSelector: '.tile_item'
-      })
+    $(this).imagesLoaded().done( function( instance ) {
+      console.log('all images successfully loaded');
     })
   })
+
+  // $('[data-tile]').each(function(){
+  //   $(this).masonry({
+  //     itemSelector: '.tile_item'
+  //   })
+  // })
 
 
   function checkbp(){
