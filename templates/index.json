@@ -142,12 +142,21 @@
             "title": "Recipe",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
+        },
+        "796f9701-1b57-47bd-856c-f2c3af306564": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC5921.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
         }
       },
       "block_order": [
         "1633056579f8a7b047-0",
         "1633056579f8a7b047-1",
-        "452ce6b0-b4a7-48a2-9709-6cd1302571f5"
+        "452ce6b0-b4a7-48a2-9709-6cd1302571f5",
+        "796f9701-1b57-47bd-856c-f2c3af306564"
       ],
       "settings": {
         "title": "STORIES",
