@@ -1073,6 +1073,10 @@ img {
   justify-content: center;
 }
 
+.content_pagenation ul li+li {
+  margin-left: 10px;
+}
+
 .content_pagenation_num {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1087,6 +1091,11 @@ img {
   justify-content: center;
   color: #534841;
   border: 1px solid currentcolor;
+}
+
+.content_pagenation_num.-dot {
+  border-color: transparent;
+  pointer-events: none;
 }
 
 .inlines {
