@@ -72,17 +72,17 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home_visit_img_01.png",
-            "title": "Open Day",
-            "text": "<p>Next Open: Oct. 2021<\/p>"
+            "image": "shopify:\/\/shop_images\/DSC1274.jpg",
+            "title": "OPEN DAY",
+            "text": "<p>Next Open: Spring 2022<\/p>"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home_visit_img_02.png",
+            "image": "shopify:\/\/shop_images\/DSC1451.jpg",
             "title": "HONOR STAND",
-            "text": "<p>Next Open: 17 Jul. 2021<\/p>"
+            "text": "<p>Next Open: 19, 20 FEB. 2022<\/p>"
           }
         },
         "column3": {
@@ -90,7 +90,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/home_visit_img_04.png",
             "title": "Farming Friday",
-            "text": "<p>Next: 16 Jul. 2021<\/p>"
+            "text": "<p>Next: 18 FEB. 2022<\/p>"
           }
         }
       },
@@ -122,7 +122,7 @@
         "1633056579f8a7b047-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home_story_img_01.png",
+            "image": "shopify:\/\/shop_images\/DSC3165.jpg",
             "title": "Distiller's Year",
             "text": ""
           }
@@ -130,73 +130,38 @@
         "1633056579f8a7b047-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home_story_img_02.png",
-            "title": "RECIPE",
+            "image": "shopify:\/\/shop_images\/DSC3382.jpg",
+            "title": "Distilly Class",
             "text": ""
           }
         },
-        "c03de931-e429-4dbf-b97e-75fdb18b7f3b": {
+        "452ce6b0-b4a7-48a2-9709-6cd1302571f5": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home_story_img_03.png",
-            "title": "BOTANICAL DICTIONARY",
-            "text": ""
+            "image": "shopify:\/\/shop_images\/DSC3429.jpg",
+            "title": "Recipe",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "796f9701-1b57-47bd-856c-f2c3af306564": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC5921.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
       "block_order": [
         "1633056579f8a7b047-0",
         "1633056579f8a7b047-1",
-        "c03de931-e429-4dbf-b97e-75fdb18b7f3b"
+        "452ce6b0-b4a7-48a2-9709-6cd1302571f5",
+        "796f9701-1b57-47bd-856c-f2c3af306564"
       ],
       "settings": {
         "title": "STORIES",
         "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "1633308690edda275d": {
-      "type": "multicolumn",
-      "blocks": {
-        "1633308690edda275d-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/home_story_img_04.png",
-            "title": "MITOSAYA BOTANICAL LIBARY",
-            "text": ""
-          }
-        },
-        "1633308690edda275d-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/home_story_img_05.png",
-            "title": "PRESS",
-            "text": ""
-          }
-        },
-        "1633308690edda275d-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/home_story_img_06.png",
-            "title": "PODCAST",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1633308690edda275d-0",
-        "1633308690edda275d-1",
-        "1633308690edda275d-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -321,7 +286,6 @@
     "multi_column",
     "1633099247652c3083",
     "1633056579f8a7b047",
-    "1633308690edda275d",
     "1633099279b8e32910",
     "1633077112a56b9835",
     "163309843462365852",
