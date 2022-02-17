@@ -175,6 +175,18 @@
         "custom_liquid": "<hr>"
       }
     },
+    "1645089417f2b7498e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"cols -has4\">\n<div class=\"-col -git20\"><a href=\"\"><figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1051.jpg?v=1645004126\" alt=\"about\" \/><\/figure>\n<h3 class=\"-fs20 -center\">AAA<\/h3>\n<p class=\"-center\">aaa<\/p><\/a><\/div>\n<div class=\"-col -git20\"><a href=\"\"><figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1051.jpg?v=1645004126\" alt=\"about\" \/><\/figure>\n<h3 class=\"-fs20 -center\">BBB<\/h3>\n<p class=\"-center\">bbb<\/p><\/a><\/div>\n<div class=\"-col -git20\"><a href=\"\"><figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1051.jpg?v=1645004126\" alt=\"about\" \/><\/figure>\n<h3 class=\"-fs20 -center\">CCC<\/h3>\n<p class=\"-center\">ccc<\/p><\/a><\/div>\n<div class=\"-col -git20\"><a href=\"\"><figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1051.jpg?v=1645004126\" alt=\"about\" \/><\/figure>\n<h3 class=\"-fs20 -center\">DDD<\/h3>\n<p class=\"-center\">ddd<\/p><\/a><\/div>\n<\/div>"
+      }
+    },
+    "1645089431358f9e06": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>"
+      }
+    },
     "1633077112a56b9835": {
       "type": "image-with-text",
       "blocks": {
@@ -293,6 +305,8 @@
     "1633099247652c3083",
     "1633056579f8a7b047",
     "1633099279b8e32910",
+    "1645089417f2b7498e",
+    "1645089431358f9e06",
     "1633077112a56b9835",
     "163309843462365852",
     "16330754661e6bdadf",
