@@ -36,7 +36,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "TASTE",
-        "collection": "all",
+        "collection": "new-arrival",
         "products_to_show": 8,
         "show_view_all": true,
         "swipe_on_mobile": true,
