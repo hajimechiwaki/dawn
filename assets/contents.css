@@ -1127,7 +1127,7 @@ header-drawer {
   padding: 0 20px;
 }
 
-#MainContent .table {
+#MainContent table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
