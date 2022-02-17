@@ -49,7 +49,7 @@ $(function(){
 
   $('[data-tile]').each(function(){
     $(this).imagesLoaded().done( function( instance ) {
-      console.log(instance.elements)
+      console.log(instance.elements[0])
       //console.log('all images successfully loaded');
     })
   })
