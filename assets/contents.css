@@ -1150,7 +1150,7 @@ header-drawer {
   text-decoration: underline;
 }
 
-#MainContent table th {
+#MainContent table tbody th {
   width: 25%;
 }
 
