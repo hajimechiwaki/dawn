@@ -1138,6 +1138,13 @@ header-drawer {
   box-shadow: none;
 }
 
+#MainContent table th,
+#MainContent table td {
+  border: 1px solid #534841;
+  border-right: 0;
+  border-left: 0;
+}
+
 #MainContent table th {
   width: 25%;
 }
