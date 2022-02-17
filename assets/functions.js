@@ -47,10 +47,10 @@ $(function(){
     checkbp();
   })
 
-  $('[data-tile]').each(function(){
-    $(this).imagesLoaded().done( function( instance ) {
-      console.log(instance.elements[0])
-      //console.log('all images successfully loaded');
+
+  $('#product_imgs').imagesLoaded().done( function( instance ) {
+    $(this).masonry({
+      itemSelector: '.tile_item'
     })
   })
 
