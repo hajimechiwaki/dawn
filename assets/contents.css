@@ -1154,6 +1154,11 @@ header-drawer {
   width: 25%;
 }
 
+#MainContent table .name,
+#MainContent table .phone {
+  width: 25%;
+}
+
 #shopify-section-footer {
   margin-top: 6rem;
   padding: 0 20px;
