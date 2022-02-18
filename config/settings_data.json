@@ -53,8 +53,15 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/logo_mitosaya_full_000_2x_23f7e5ba-61c2-4afa-8cb2-77b2647ebdd3.png",
-              "image_width": 100,
+              "image_width": 150,
               "alignment": "center"
+            }
+          },
+          "73816527-345c-4fda-895d-4b5af07eed48": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "footer"
             }
           },
           "d7eeab39-20db-4bae-9021-fa2e6683b0c5": {
@@ -67,6 +74,7 @@
         },
         "block_order": [
           "5cb6f2c4-da26-4e87-83c4-1b1654dca7b6",
+          "73816527-345c-4fda-895d-4b5af07eed48",
           "d7eeab39-20db-4bae-9021-fa2e6683b0c5"
         ],
         "settings": {
