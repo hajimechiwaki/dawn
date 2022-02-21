@@ -432,6 +432,11 @@
     },
     "page_titles": {
       "products": "Products"
+    },
+    "checkout": {
+      "stock": {
+        "product_column_header": "Products"
+      }
     }
   }
 }
