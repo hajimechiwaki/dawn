@@ -435,7 +435,7 @@
     },
     "checkout": {
       "stock": {
-        "product_column_header": "Products"
+        "product_column_header": "PRODUCTS"
       }
     }
   }
