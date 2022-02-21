@@ -21,6 +21,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "WEB SITE RENEWAL OPEN",
               "color_scheme": "background-1",
