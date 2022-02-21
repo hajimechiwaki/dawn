@@ -431,11 +431,11 @@
       "powered_by_shopify": " "
     },
     "page_titles": {
-      "products": "Products"
+      "products": "PRODUCTS"
     },
     "checkout": {
       "stock": {
-        "product_column_header": "PRODUCTS"
+        "product_column_header": "商品"
       }
     }
   }
