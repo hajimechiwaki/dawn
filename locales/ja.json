@@ -268,7 +268,7 @@
     }
   },
   "localization": {
-    "country_label": "国\/地域",
+    "country_label": "Country\/Region",
     "language_label": "Language",
     "update_language": "言語を更新する",
     "update_country": "国\/地域を更新する"
