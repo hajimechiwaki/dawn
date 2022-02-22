@@ -1104,6 +1104,42 @@ img {
   pointer-events: none;
 }
 
+.content_table table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.4rem;
+  border-top: 1px solid rgba(83,72,65,0.2);
+  border-bottom: 1px solid rgba(83,72,65,0.2);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.content_table table th,
+.content_table table td {
+  border: 1px solid #534841;
+  border-right: 0;
+  border-left: 0;
+}
+
+.content_table table th a,
+.content_table table td a {
+  text-decoration: underline;
+}
+
+.content_table table tbody th {
+  width: 25%;
+}
+
+.content_table table .name,
+.content_table table .phone {
+  width: 25%;
+}
+
+.content_table table .address {
+  width: 50%;
+}
+
 .inlines {
   line-height: 1.1;
   margin: 0 -10px -16px;
@@ -1174,42 +1210,6 @@ header-drawer {
 #MainContent {
   margin-top: 6rem;
   padding: 0 20px;
-}
-
-#MainContent table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 1.4rem;
-  border-top: 1px solid rgba(83,72,65,0.2);
-  border-bottom: 1px solid rgba(83,72,65,0.2);
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-#MainContent table th,
-#MainContent table td {
-  border: 1px solid #534841;
-  border-right: 0;
-  border-left: 0;
-}
-
-#MainContent table th a,
-#MainContent table td a {
-  text-decoration: underline;
-}
-
-#MainContent table tbody th {
-  width: 25%;
-}
-
-#MainContent table .name,
-#MainContent table .phone {
-  width: 25%;
-}
-
-#MainContent table .address {
-  width: 50%;
 }
 
 #shopify-section-footer {
