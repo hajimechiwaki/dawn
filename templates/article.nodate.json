@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "1635142182671ce15d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"content article_header\">\n\t{%- if article.image -%}\n\t<div class=\"content_bg\">\n\t\t<img src=\"{{ article.image | img_url: 'master' }}\" class=\"lazyload bgimg\">\n\t<\/div>\n\t{%- endif -%}\n\t<div class=\"content_inner\">\n\t\t<div class=\"content_body -center\">\n\t\t\t<div class=\"article_header_labels\">\n\t\t\t\t<p class=\"article_header_labels_main\">{{ blog.title }}<\/p>\n\t\t\t\t{%- if article.tags -%}\n\t\t\t\t<p class=\"article_header_labels_sub\">\n\t\t\t\t{% for tag in article.tags %}{{ tag }}{% endfor %}\n\t\t\t\t<\/p>\n\t\t\t\t{%- endif -%}\n\t\t\t<\/div>\n\t\t\t<div class=\"article_header_titles\">\n\t\t\t\t<h1 class=\"article_header_titles_main\">{{ article.title | escape }}<\/h1>\n\t\t\t<\/div>\n\t\t\t<time class=\"article_header_date\">{{ article.published_at | time_tag: '%Y.%m.%d' }}<\/time>\n\t\t<\/div>\n\t<\/div>\n<\/div>"
+      }
+    },
+    "163515884849c2c4e5": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"content article_cols\">\n\t<div class=\"content_inner\">\n\t\t<div class=\"cols -middle -reverse -gather\">\n\t\t\t{%- if article.image -%}\n\t\t\t<div class=\"article_cols_img\">\n\t\t\t\t<figure class=\"img -r4x3 -cover\">\n\t\t\t\t\t<img src=\"{{ article.image | img_url: 'master' }}\" class=\"lazyload bgimg\">\n\t\t\t\t<\/figure> \n\t\t\t<\/div>\n\t\t\t{%- endif -%}\n\t\t\t<div class=\"article_cols_body -center\">\n\t\t\t\t<div class=\"article_cols_labels\">\n\t\t\t\t\t<p class=\"article_cols_labels_main\">{{ blog.title }}<\/p>\n\t\t\t\t\t{%- if article.tags -%}\n\t\t\t\t\t<p class=\"article_cols_labels_sub\">\n\t\t\t\t\t{% for tag in article.tags %}{{ tag }}{% endfor %}\n\t\t\t\t\t<\/p>\n\t\t\t\t\t{%- endif -%}\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"article_cols_titles\">\n\t\t\t\t\t<h1 class=\"article_cols_titles_main\">{{ article.title | escape }}<\/h1>\n\t\t\t\t<\/div>\n\t\t\t\t<time class=\"article_cols_date\">{{ article.published_at | time_tag: '%Y.%m.%d' }}<\/time>\n\t\t\t<\/div>\n\t\t\t\n\t\t<\/div>\n\t<\/div>\n<\/div>"
+      }
+    },
+    "1635158561ff60aaa7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"content\">\n\t<div class=\"content_inner -narrow\">\n\t\t{{ article.content }}\n\t<\/div>\n<\/div>"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {
+      }
+    },
+    "1635158767d54fc3d0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>"
+      }
+    }
+  },
+  "order": [
+    "1635142182671ce15d",
+    "163515884849c2c4e5",
+    "1635158561ff60aaa7",
+    "main",
+    "1635158767d54fc3d0"
+  ]
+}
