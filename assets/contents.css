@@ -1201,6 +1201,10 @@ body {
   color: rgba(var(--color-foreground), 1);
 }
 
+.header {
+  padding: 10px 0;
+}
+
 .header__menu-item {
   color: rgba(var(--color-foreground), 1);
 }
