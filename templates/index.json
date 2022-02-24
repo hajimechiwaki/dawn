@@ -3,39 +3,13 @@
     "1634781646989d26c4": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"content vi\">\n\t<div class=\"content_bg\">\n\t\t<video preload=\"none\" data-autoplay loop playsinline muted class=\"lazyload bgimg\">\n\t\t<source type=\"video\/mp4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/mitosaya_20211013_3.mp4?v=1634110612\">\n\t\t<\/video>\n\t<\/div>\n\t<div class=\"content_inner\">\n\t\t\t<h1 class=\"vi_title -center\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/logotype_fff.svg?v=1634783331\" alt=\"MITOSAYA\"><\/h1>\n\t<\/div>\n<\/div>"
-      }
-    },
-    "video": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/home_video_img_01.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=DxpF49ugaUU",
-        "description": "",
-        "full_width": true
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/home_vi_img_01.png",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": false,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "custom_liquid": "<div class=\"content vi\">\n\t<div class=\"content_bg\">\n\t\t<video preload=\"none\" data-autoplay loop playsinline muted class=\"lazyload bgimg\">\n\t\t<source type=\"video\/mp4\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/9_9.mp4?v=1645648206\">\n\t\t<\/video>\n\t<\/div>\n\t<div class=\"content_inner\">\n\t\t\t<h1 class=\"vi_title -center\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/logotype_fff.svg?v=1634783331\" alt=\"MITOSAYA\"><\/h1>\n\t<\/div>\n<\/div>"
       }
     },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "TASTE",
+        "title": "NEW ARRIVAL",
         "collection": "new-arrival",
         "products_to_show": 8,
         "show_view_all": true,
@@ -48,233 +22,34 @@
         "show_rating": false
       }
     },
-    "163309939390b4699a": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<hr>"
-      }
-    },
     "16343110734f066ed3": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"content\">\n\t<div class=\"content_inner\">\n\t\t<h2 class=\"content_title -center\">NEWS<\/h2>\n\t\t<div class=\"cols\">\n\t\t\t<div class=\"cols_news\">\n\t\t\t\t{% if blogs.news.articles %}\n\t\t\t\t<ul class=\"content_news\">\n\t\t\t\t  {% for article in blogs.news.articles limit:5  %}\n\t\t\t\t    <li>\n\t\t\t\t\t\t<a href=\"{{ article.url }}\">\n\t\t\t\t\t\t\t<div class=\"content_news_date\">{{ article.published_at | time_tag: '%Y.%m.%d' }}<\/div>\n\t\t\t\t\t\t\t{% if article.tags %}<div class=\"content_news_tag\">{% for tag in article.tags %}{{ tag }}{% endfor %}<\/div>{% endif %}\n\t\t\t\t\t\t\t<div class=\"content_news_title\">{{ article.title }}<\/div>\n\t\t\t\t\t\t<\/a>\n\t\t\t\t\t<\/li>\n\t\t\t\t  {% endfor %}\n\t\t\t\t<\/ul>\n\t\t\t\t{% else %}\n\t\t\t\t\t<p>まだニュースはありません。<\/p>\n\t\t\t\t{% endif %}\n\t\t\t<\/div>\n\t\t\t<!--<div class=\"cols_instagram\">\n\t\t\t\t<a href=\"https:\/\/www.instagram.com\/3tosaya\/\" target=\"_blank\">\n\t\t\t\t\t<img src=\"https:\/\/placehold.jp\/360x360.png\" width=\"180\" height=\"180\" alt=\"\">\n\t\t\t\t<\/a>\n\t\t\t<\/div>-->\n\t\t<\/div>\n\t<\/div>\n<\/div>"
+        "custom_liquid": "<hr>\n<div class=\"content\">\n\t<div class=\"content_inner\">\n\t\t<h2 class=\"content_title -center\">NEWS<\/h2>\n\t\t<div class=\"cols\">\n\t\t\t<div class=\"cols_news\">\n\t\t\t\t{% if blogs.news.articles %}\n\t\t\t\t<ul class=\"content_news\">\n\t\t\t\t  {% for article in blogs.news.articles limit:5  %}\n\t\t\t\t    <li>\n\t\t\t\t\t\t<a href=\"{{ article.url }}\">\n\t\t\t\t\t\t\t<div class=\"content_news_date\">{{ article.published_at | time_tag: '%Y.%m.%d' }}<\/div>\n\t\t\t\t\t\t\t{% if article.tags %}<div class=\"content_news_tag\">{% for tag in article.tags %}{{ tag }}{% endfor %}<\/div>{% endif %}\n\t\t\t\t\t\t\t<div class=\"content_news_title\">{{ article.title }}<\/div>\n\t\t\t\t\t\t<\/a>\n\t\t\t\t\t<\/li>\n\t\t\t\t  {% endfor %}\n\t\t\t\t<\/ul>\n\t\t\t\t{% else %}\n\t\t\t\t\t<p>まだニュースはありません。<\/p>\n\t\t\t\t{% endif %}\n\t\t\t<\/div>\n\t\t\t<!--<div class=\"cols_instagram\">\n\t\t\t\t<a href=\"https:\/\/www.instagram.com\/3tosaya\/\" target=\"_blank\">\n\t\t\t\t\t<img src=\"https:\/\/placehold.jp\/360x360.png\" width=\"180\" height=\"180\" alt=\"\">\n\t\t\t\t<\/a>\n\t\t\t<\/div>-->\n\t\t<\/div>\n\t<\/div>\n<\/div>"
       }
     },
     "16330993394862c54b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<hr>"
-      }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC1274.jpg",
-            "title": "OPEN DAY",
-            "text": "<p>Next Open: Spring 2022<\/p>"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC1451.jpg",
-            "title": "HONOR STAND",
-            "text": "<p>Next Open: 19, 20 FEB. 2022<\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/home_visit_img_04.png",
-            "title": "Farming Friday",
-            "text": "<p>Next: 18 FEB. 2022<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "VISIT \/ JOIN",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "1633099247652c3083": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<hr>"
-      }
-    },
-    "1633056579f8a7b047": {
-      "type": "multicolumn",
-      "blocks": {
-        "1633056579f8a7b047-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC3165.jpg",
-            "title": "Distiller's Year",
-            "text": ""
-          }
-        },
-        "1633056579f8a7b047-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC3382.jpg",
-            "title": "Distilly Class",
-            "text": ""
-          }
-        },
-        "452ce6b0-b4a7-48a2-9709-6cd1302571f5": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC3429.jpg",
-            "title": "Recipe",
-            "text": ""
-          }
-        },
-        "796f9701-1b57-47bd-856c-f2c3af306564": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC5921.jpg",
-            "title": "Column",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1633056579f8a7b047-0",
-        "1633056579f8a7b047-1",
-        "452ce6b0-b4a7-48a2-9709-6cd1302571f5",
-        "796f9701-1b57-47bd-856c-f2c3af306564"
-      ],
-      "settings": {
-        "title": "STORIES",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "1633099279b8e32910": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<hr>"
+        "custom_liquid": "<hr>\n<div class=\"content\">\n<div class=\"content_inner -large\">\n\n<div class=\"-git10\">\n<h1 class=\"-center -fs24\">VISIT\/JOIN<\/h1>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n\n<div class=\"cols -has3\">\n\n<a href=\"\/pages\/visit\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1148.jpg?v=1645604114\" alt=\"OPEN DAY\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">OPEN DAY<\/h3>\n<p class=\"-center\">Next: Spring 2022<\/p>\n<\/div>\n<\/a>\n\n<a href=\"\/pages\/visit\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1451_d5628d87-7d71-4546-b5b7-fef95eb7cfbd.jpg?v=1645604115\" alt=\"HONOR STAND\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">HONOR STAND<\/h3>\n<p class=\"-center\">Next: March<\/p>\n<\/div>\n<\/a>\n\n<a href=\"\/pages\/join\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/farming-friday.jpg?v=1645609175\" alt=\"FARMING FRIDAY\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">FARMING FRIDAY<\/h3>\n<p class=\"-center\">Next:<\/p>\n<\/div>\n<\/a>\n\n<\/div>\n\n<\/div>\n<\/div>"
       }
     },
     "1645089417f2b7498e": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"content\">\n<div class=\"content_inner -large\">\n\n<div class=\"-git10\">\n<h1 class=\"-center -fs24\">AAA<\/h1>\n<p class=\"-center\">aaa<\/p>\n<\/div>\n\n<div class=\"cols -has5\">\n\n<a href=\"\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1051.jpg?v=1645004126\" alt=\"about\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">AAA<\/h3>\n<p class=\"-center\">aaa<\/p>\n<\/div>\n<\/a>\n\n<a href=\"\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1051.jpg?v=1645004126\" alt=\"about\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">AAA<\/h3>\n<p class=\"-center\">aaa<\/p>\n<\/div>\n<\/a>\n\n<a href=\"\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1051.jpg?v=1645004126\" alt=\"about\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">AAA<\/h3>\n<p class=\"-center\">aaa<\/p>\n<\/div>\n<\/a>\n\n<a href=\"\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1051.jpg?v=1645004126\" alt=\"about\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">AAA<\/h3>\n<p class=\"-center\">aaa<\/p>\n<\/div>\n<\/a>\n\n<\/div>\n\n<\/div>\n<\/div>"
+        "custom_liquid": "<hr>\n<div class=\"content\">\n<div class=\"content_inner -large\">\n\n<div class=\"-git10\">\n<h1 class=\"-center -fs24\">STORIES\/TASTE<\/h1>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n\n<div class=\"cols -has4\">\n\n<a href=\"\/blogs\/distillers-year\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1396-clear.jpg?v=1645604115\" alt=\"Distiller's Year\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">Distiller's Year<\/h3>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n<\/a>\n\n<a href=\"\/pages\/podcast\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC3351.jpg?v=1645066157\" alt=\"Distillery Class\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">Distillery Class<\/h3>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n<\/a>\n\n<a href=\"\/blogs\/producers\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC3165.jpg?v=1645066156\" alt=\"PRODUCERS\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">PRODUCERS<\/h3>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n<\/a>\n\n<a href=\"\/pages\/stockist\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1282.jpg?v=1645604114\" alt=\"STOCKIST\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">STOCKIST<\/h3>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n<\/a>\n\n<\/div>\n\n<\/div>\n<\/div>"
       }
     },
-    "1645089431358f9e06": {
+    "1645499945a61e384c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<hr>"
+        "custom_liquid": "<hr>\n<div class=\"content\">\n<div class=\"content_inner -large\">\n\n<div class=\"-git10\">\n<h1 class=\"-center -fs24\">ABOUT<\/h1>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n\n<div class=\"cols -has5\">\n\n<a href=\"\/pages\/about\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1169_d8f6efc0-7036-4054-9af3-78badc0b81c6.jpg?v=1645604115\" alt=\"ABOUT\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">ABOUT<\/h3>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n<\/a>\n\n<a href=\"\/pages\/brief-history\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1051_d4a59587-5e39-4be8-b3fa-ef3c24ddac2d.jpg?v=1645604114\" alt=\"BRIEF HISTORY\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">BRIEF HISTORY<\/h3>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n<\/a>\n\n<a href=\"\/pages\/map\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/map.png?v=1645652495\" alt=\"MAP\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">MAP<\/h3>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n<\/a>\n\n<a href=\"\/pages\/projects\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1157.jpg?v=1645604115\" alt=\"PROJECTS\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">PROJECTS<\/h3>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n<\/a>\n\n<a href=\"\/pages\/team-member\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1059_09e251d9-92af-441e-a7ed-1a91546a8e6c.jpg?v=1645604114\" alt=\"TEAM\/MEMBER\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">TEAM\/MEMBER<\/h3>\n<!--<p class=\"-center\"><\/p>-->\n<\/div>\n<\/a>\n\n<\/div>\n\n<\/div>\n<\/div>"
       }
     },
-    "1633077112a56b9835": {
-      "type": "image-with-text",
-      "blocks": {
-        "1633077112a56b9835-0": {
-          "type": "heading",
-          "settings": {
-            "heading": ""
-          }
-        },
-        "1633077112a56b9835-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>ABOUT<\/p><p>BRIEF HISTORY<\/p><p>TEAM\/MEMBER<\/p><p>PROJECTS<\/p><p>COMPANY<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1633077112a56b9835-0",
-        "1633077112a56b9835-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/mitosaya_map_20220216.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "163309843462365852": {
+    "16454095425a98a282": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<hr>"
-      }
-    },
-    "16330754661e6bdadf": {
-      "type": "multicolumn",
-      "blocks": {
-        "16330754661e6bdadf-0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>HOME<\/p><p>NEWS<\/p><p>ABOUT<\/p><p>　ABOUT MITOSAYA<\/p><p>　MISSION<\/p><p>　MAP<\/p><p>　BRIEF HISTORY<\/p><p>　TEAM\/MEMBER<\/p><p>　AWARDS<\/p><p>　PROJECTS<\/p><p>　COMPANY<\/p>"
-          }
-        },
-        "16330754661e6bdadf-1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>TASTE<\/p><p>　ONLINE SHOP<\/p><p>　　EAU DE VIE<\/p><p>　　TEA<\/p><p>　　JAR AND PRESERVED FOOD<\/p><p>　　FOOD<\/p><p>　　SEASONAL<\/p><p>　　PRODUCTS<\/p><p>　　BOOKS<\/p><p>　　MERCH<\/p><p>　　FRIENDS<\/p><p>　PRODUCERS<\/p><p>　SHOPPING GUIDE<\/p><p>　STOCKIST<\/p>"
-          }
-        },
-        "16330754661e6bdadf-2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>VISIT<\/p><p>　HONOR STAND<\/p><p>　OPEN DAY<\/p><p>　APPOINTMENT<\/p><p>JOIN<\/p><p>　JOIN OUR TEAM<\/p><p>　APPRENTICE PROGRAM<\/p><p>　FARMING FRIDAY<\/p>"
-          }
-        },
-        "35b146aa-f8c9-40fb-8c7d-2dde37c19031": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>STORIES<\/p><p>　NEWSLETTER<\/p><p>　Distiller's Year<\/p><p>　RECIPE<\/p><p>　BOTANICAL DICTIONARY<\/p><p>　MITOSAYA BOTANICAL LIBARY<\/p><p>　PRESS<\/p><p>　PODCAST <\/p><p>CONTACT<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16330754661e6bdadf-0",
-        "16330754661e6bdadf-1",
-        "16330754661e6bdadf-2",
-        "35b146aa-f8c9-40fb-8c7d-2dde37c19031"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "1645085228cce53c79": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<hr>"
+        "custom_liquid": "<hr>\n<div class=\"content\">\n<div class=\"content_inner -large\">\n<div class=\"cols -has4\">\n\n<div>\n<p><a href=\"\/collections\/all\">SHOP<\/a><br>\n<a href=\"\/collections\/new-arrival\">NEW ARRIVAL<\/a><br>\n<a href=\"\/collections\/eau-de-vie\">EAU DE VIE<\/a><br>\n<a href=\"\/collections\/tea\">TEA<\/a><br>\n<a href=\"\/collections\/jar\">JAR<\/a><br>\n<a href=\"\/collections\/food\">FOOD<\/a><br>\n<a href=\"\/collections\/books\">BOOKS<\/a><br>\n<a href=\"\/collections\/product\">PRODUCT<\/a><\/p>\n<\/div>\n\n<div>\n<p>TASTE<br>\n<a href=\"\/pages\/visit\">VISIT<\/a><br>\n<a href=\"\/pages\/stories\">STORIES<\/a><br>\n<a href=\"\/pages\/join\">JOIN<\/a><br>\n<a href=\"\/pages\/about\">ABOUT<\/a><br>\n<a href=\"\/blogs\/news\">NEWS<\/a><br>\n<a href=\"\/pages\/contact\">CONTACT<\/a><\/p>\n<\/div>\n\n<div>\n<div data-lang=\"ja\" class=\"-git10\"><p>mitosaya薬草園蒸留所<\/p>\n<p>〒298-0216<br>千葉県夷隅郡大多喜町大多喜486<br>\ne-mail. <a href=\"mailto:info@mitosaya.com\" target=\"_blank\">info@mitosaya.com<\/a><br>\ntel. 0470 64 6041<\/p>\n<p><a href=\"https:\/\/www.instagram.com\/3tosaya\/\" target=\"_blank\">Instagram<\/a> | <a href=\"https:\/\/twitter.com\/3tosaya\" target=\"_blank\">Twitter<\/a> | <a href=\"https:\/\/www.facebook.com\/3tosaya\/\" target=\"_blank\">Facebook<\/a><\/p><\/div>\n<div data-lang=\"en\" class=\"-git10\"><p>mitosaya botanical distillery<\/p>\n<p>486 Otaki, Otaki-machi, Isumi-gun, Chiba 298-0216 Japan<br>\ne-mail. <a href=\"mailto:info@mitosaya.com\" target=\"_blank\">info@mitosaya.com<\/a><br>\ntel. +81(0)470 64 6041<\/p>\n<p><a href=\"https:\/\/www.instagram.com\/3tosaya\/\" target=\"_blank\">Instagram<\/a> | <a href=\"https:\/\/twitter.com\/3tosaya\" target=\"_blank\">Twitter<\/a> | <a href=\"https:\/\/www.facebook.com\/3tosaya\/\" target=\"_blank\">Facebook<\/a><\/p><\/div>\n<\/div>\n\n<div class=\"-center\">\n<a href=\"\/\"><figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/logo_mitosaya_full_000_2x_23f7e5ba-61c2-4afa-8cb2-77b2647ebdd3_150x@2x.png\" alt=\"mitosaya\" width=\"150\" \/><\/figure><\/a><\/div>\n\n<\/div>\n<\/div>\n<\/div>"
       }
     },
     "16330768090bd2aeee": {
@@ -293,33 +68,16 @@
         "color_scheme": "background-1",
         "full_width": true
       }
-    },
-    "16454095425a98a282": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"content\">\n<div class=\"content_inner -large\">\n<div class=\"cols -has4\">\n\n<a href=\"\" class=\"-git40 -center\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/logo_mitosaya_full_000_2x_23f7e5ba-61c2-4afa-8cb2-77b2647ebdd3_150x@2x.png\" alt=\"mitosaya\" width=\"150\" \/><\/figure>\n<div class=\"-git20\">\n<p class=\"-center\">mitosaya薬草園蒸留所<\/p>\n<p class=\"-center\">〒298-0216<br>千葉県夷隅郡大多喜町大多喜486<br>\ne-mail. info@mitosaya.com<br>\ntel. 0470 64 6041<\/p>\n<\/div>\n<\/a>\n\n<a href=\"\" class=\"-git20\">\n<div class=\"-git20 -fs18\">\n<p class=\"-left\">HOME<\/p>\n<p class=\"-left\">NEWS<\/p>\n<p class=\"-left\">TASTE<\/p>\n<p class=\"-left\">VISIT<\/p>\n<p class=\"-left\">STORIES<\/p>\n<p class=\"-left\">JOIN<\/p>\n<p class=\"-left\">CONTACT<\/p>\n<\/div>\n<\/a>\n\n<a href=\"\" class=\"-git20\">\n<div class=\"-git10\">\n<p class=\"-left\">aaa<\/p>\n<\/div>\n<\/a>\n\n<a href=\"\" class=\"-git20\">\n<figure class=\"-pad\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/1044\/2922\/files\/DSC1051.jpg?v=1645004126\" alt=\"about\" \/><\/figure>\n<div class=\"-git10\">\n<h3 class=\"-fs20 -center\">AAA<\/h3>\n<p class=\"-center\">aaa<\/p>\n<\/div>\n<\/a>\n\n<\/div>\n\n<\/div>\n<\/div>"
-      }
     }
   },
   "order": [
     "1634781646989d26c4",
-    "video",
-    "image_banner",
     "featured_products",
-    "163309939390b4699a",
     "16343110734f066ed3",
     "16330993394862c54b",
-    "multi_column",
-    "1633099247652c3083",
-    "1633056579f8a7b047",
-    "1633099279b8e32910",
     "1645089417f2b7498e",
-    "1645089431358f9e06",
-    "1633077112a56b9835",
-    "163309843462365852",
-    "16330754661e6bdadf",
-    "1645085228cce53c79",
-    "16330768090bd2aeee",
-    "16454095425a98a282"
+    "1645499945a61e384c",
+    "16454095425a98a282",
+    "16330768090bd2aeee"
   ]
 }

@@ -50,16 +50,9 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "5cb6f2c4-da26-4e87-83c4-1b1654dca7b6": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/logo_mitosaya_full_000_2x_23f7e5ba-61c2-4afa-8cb2-77b2647ebdd3.png",
-              "image_width": 150,
-              "alignment": "center"
-            }
-          },
           "73816527-345c-4fda-895d-4b5af07eed48": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "",
               "menu": "footer"
@@ -67,22 +60,32 @@
           },
           "d7eeab39-20db-4bae-9021-fa2e6683b0c5": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "heading": "mitosaya薬草園蒸留所",
               "subtext": "<p>〒298-0216 千葉県夷隅郡大多喜町大多喜486<br\/>e-mail. info@mitosaya.com \/ tel. 0470 64 6041<\/p>"
             }
+          },
+          "5cb6f2c4-da26-4e87-83c4-1b1654dca7b6": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/logo_mitosaya_full_000_2x_23f7e5ba-61c2-4afa-8cb2-77b2647ebdd3.png",
+              "image_width": 150,
+              "alignment": "center"
+            }
           }
         },
         "block_order": [
-          "5cb6f2c4-da26-4e87-83c4-1b1654dca7b6",
           "73816527-345c-4fda-895d-4b5af07eed48",
-          "d7eeab39-20db-4bae-9021-fa2e6683b0c5"
+          "d7eeab39-20db-4bae-9021-fa2e6683b0c5",
+          "5cb6f2c4-da26-4e87-83c4-1b1654dca7b6"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": true,
+          "show_social": false,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": false
