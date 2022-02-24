@@ -1202,7 +1202,7 @@ body {
 }
 
 .header {
-  padding: 10px 0;
+  padding: 10px 0 !important;
 }
 
 .header__menu-item {
