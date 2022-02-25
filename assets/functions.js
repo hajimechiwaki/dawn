@@ -50,14 +50,13 @@ $(function(){
 
   $('[data-tile]').each(function(){
     var media_set = $(this).find('img,video').length;
-    alert(media_set);
     var media_loaded = 0;
     var medias = $(this);
-    medias.find('video').each(function(){
-      $(this).addEventListener('loadeddata', function() {
-        media_loaded = media_loaded + 1;
-      })
-    });
+    // medias.find('video').each(function(){
+    //   $(this).addEventListener('loadeddata', function() {
+    //     media_loaded = media_loaded + 1;
+    //   })
+    // });
     medias.imagesLoaded().done( function( instance ) {
       media_loaded = media_loaded + medias.find('img').length;
       $(instance.elements[0]).masonry({
