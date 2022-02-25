@@ -49,11 +49,18 @@ $(function(){
   })
 
   $('[data-tile]').each(function(){
-    var media_num = 0;
+    var media_set = $(this).find('img,video').length;
+    alert(media_set);
+    var media_loaded = 0;
     var medias = $(this);
+    medias.find('video').each(function(){
+      $(this).addEventListener('loadeddata', function() {
+        media_loaded = media_loaded + 1;
+      })
+    });
     medias.imagesLoaded().done( function( instance ) {
-      media_num = media_num + medias.find('img').length;
-      alert(media_num)
+      media_loaded = media_loaded + medias.find('img').length;
+      alert(media_loaded)
       $(instance.elements[0]).masonry({
         itemSelector: '.tile_item'
       })
