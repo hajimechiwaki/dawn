@@ -26,6 +26,12 @@
 		<h3 class="card_title -large">{{ product_title }}</h3>
 		{%- endif -%}
 		<p class="card_title_sub">{{ product_title_sub }}</p>
+
+    {%- if product_card_product.available == false -%}
+      <p class="card_available">{{ 'products.product.sold_out' | t }}</p>
+    {%- elsif product_card_product.available -%}
+      <p class="card_available">{{ 'products.product.on_sale' | t }}</p>
+    {%- endif -%}
 	</div>
 
 </a>
