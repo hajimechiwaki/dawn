@@ -1192,6 +1192,10 @@ img {
   border-left: 1px solid currentColor;
 }
 
+svg {
+  height: intrinsic;
+}
+
 .color-accent-1,
 .color-accent-2,
 .color-background-1,
