@@ -924,11 +924,13 @@ img {
 }
 
 .cols[data-spslide] .slick-arrow.slick-prev {
-  left: 100%;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 
 .cols[data-spslide] .slick-arrow.slick-next {
-  right: 100%;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .cols_instagram a {
