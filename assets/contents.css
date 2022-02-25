@@ -923,14 +923,40 @@ img {
   transform: translateY(0);
 }
 
+.cols[data-spslide] .slick-arrow::before,
+.cols[data-spslide] .slick-arrow::after {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.cols[data-spslide] .slick-arrow::before {
+  border: 1px solid currentcolor;
+}
+
 .cols[data-spslide] .slick-arrow.slick-prev {
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
 }
 
+.cols[data-spslide] .slick-arrow.slick-prev::before,
+.cols[data-spslide] .slick-arrow.slick-prev::after {
+  right: 0;
+}
+
 .cols[data-spslide] .slick-arrow.slick-next {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
+}
+
+.cols[data-spslide] .slick-arrow.slick-next::before,
+.cols[data-spslide] .slick-arrow.slick-next::after {
+  left: 0;
 }
 
 .cols_instagram a {
