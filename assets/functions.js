@@ -62,7 +62,6 @@ $(function(){
     })
     var timer = setInterval(function(){
       if( media_set == media_loaded ){
-        alert('hoge');
         clearInterval(timer);
         medias.masonry({
           itemSelector: '.tile_item'
