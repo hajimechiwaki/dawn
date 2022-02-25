@@ -14,6 +14,12 @@
     "1645518288016de8ff": {
       "type": "newsletter",
       "blocks": {
+        "0c4bd4b4-c4ff-4af3-9ced-bdcca2ad38ea": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Newsletter<\/p>"
+          }
+        },
         "1645518288e23bf84b-2": {
           "type": "email_form",
           "settings": {
@@ -21,6 +27,7 @@
         }
       },
       "block_order": [
+        "0c4bd4b4-c4ff-4af3-9ced-bdcca2ad38ea",
         "1645518288e23bf84b-2"
       ],
       "settings": {
