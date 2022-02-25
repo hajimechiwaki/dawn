@@ -914,6 +914,14 @@ img {
   margin: 0;
 }
 
+.cols[data-spslide] .slick-arrow.slick-prev {
+  left: 0;
+}
+
+.cols[data-spslide] .slick-arrow.slick-next {
+  right: 0;
+}
+
 .cols_instagram a {
   display: block;
   margin: 0 2rem;
