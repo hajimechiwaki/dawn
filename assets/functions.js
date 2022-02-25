@@ -38,7 +38,8 @@ $(function(){
 
   $('.product_imgs').slick({
     fade: true,
-    arrows: false
+    arrows: false,
+    dots: true
   })
 
   $(window).on('resize orientalchange',function(){
