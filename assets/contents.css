@@ -1107,7 +1107,7 @@ img {
 .content_tile .tile_item {
   background-color: rgba(0,0,0,0.1);
   width: 100%;
-  margin: 4rem 5rem;
+  margin: 0 2rem;
 }
 
 .content_tile .tile_item.-portrait {
@@ -2124,7 +2124,8 @@ html[lang="en"] *[data-lang="en"] {
   }
 
   .content_tile .tile_item {
-    margin: 0 2rem;
+    max-width: calc( 50% - 100px);
+    margin: 4rem 5rem;
   }
 
   .grid {
