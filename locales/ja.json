@@ -116,7 +116,7 @@
         "unit_price": "単価"
       },
       "share": "この商品を共有する",
-      "sold_out": "Sold Out",
+      "sold_out": "Out of Stock",
       "unavailable": "利用できません",
       "vendor": "販売元",
       "video_exit_message": "{{ title }}は同じウィンドウの全画面表示ビデオで開きます。",
@@ -435,7 +435,8 @@
     },
     "checkout": {
       "stock": {
-        "product_column_header": "商品"
+        "product_column_header": "商品",
+        "sold_out_label": "Out of Stock"
       }
     }
   }
