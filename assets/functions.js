@@ -52,7 +52,7 @@ $(function(){
     var media_num = 0;
     $(this).imagesLoaded().done( function( instance ) {
       media_num = media_num + $(this).find('img').length;
-      console.log(instance);
+      alert(media_num);
       $(instance.elements[0]).masonry({
         itemSelector: '.tile_item'
       })
