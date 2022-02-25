@@ -910,6 +910,10 @@ img {
   margin-left: 2rem;
 }
 
+.cols[data-spslide] .slick-arrow {
+  margin: 0;
+}
+
 .cols_instagram a {
   display: block;
   margin: 0 2rem;
