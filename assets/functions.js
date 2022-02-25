@@ -52,8 +52,8 @@ $(function(){
     var media_num = 0;
     var medias = $(this);
     medias.imagesLoaded().done( function( instance ) {
-      //media_num = media_num + $(this).find('img').length;
-      alert(medias.find('img').length)
+      media_num = media_num + medias.find('img').length;
+      alert(media_num)
       $(instance.elements[0]).masonry({
         itemSelector: '.tile_item'
       })
