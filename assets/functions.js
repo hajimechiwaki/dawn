@@ -60,7 +60,6 @@ $(function(){
     });
     medias.imagesLoaded().done( function( instance ) {
       media_loaded = media_loaded + medias.find('img').length;
-      alert(media_loaded)
       $(instance.elements[0]).masonry({
         itemSelector: '.tile_item'
       })
