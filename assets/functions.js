@@ -50,7 +50,6 @@ $(function(){
 
   $('[data-tile]').each(function(){
     var media_set = $(this).find('img,video').length;
-    alert(media_set);
     var media_loaded = 0;
     var medias = $(this);
     medias.find('video').each(function(){
@@ -60,10 +59,16 @@ $(function(){
     });
     medias.imagesLoaded().done( function( instance ) {
       media_loaded = media_loaded + medias.find('img').length;
-      $(instance.elements[0]).masonry({
-        itemSelector: '.tile_item'
-      })
     })
+    var timer = setInterval(function(){
+      if( media_set == media_loaded ){
+        alert('hoge');
+        clearInterval(timer);
+        medias.masonry({
+          itemSelector: '.tile_item'
+        })
+      }
+    },100)
   })
 
   // $('[data-tile]').each(function(){
