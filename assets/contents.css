@@ -2124,7 +2124,7 @@ html[lang="en"] *[data-lang="en"] {
   }
 
   .content_tile .tile_item {
-    max-width: calc( 50% - 100px);
+    margin: 0 2rem;
   }
 
   .grid {
