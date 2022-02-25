@@ -53,7 +53,7 @@ $(function(){
     var media_loaded = 0;
     var medias = $(this);
     medias.find('video').each(function(){
-      $(this).addEventListener('loadeddata', function() {
+      $(this).on('canplay', function() {
         alert('loaded');
         //media_loaded = media_loaded + 1;
       })
