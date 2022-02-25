@@ -38,6 +38,12 @@
     "16455185017573a3dd": {
       "type": "newsletter",
       "blocks": {
+        "d3e25e09-ef60-4474-95e3-ab10535c0cdd": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Newsletter<\/p>"
+          }
+        },
         "1645518501d089c012-2": {
           "type": "email_form",
           "settings": {
@@ -45,6 +51,7 @@
         }
       },
       "block_order": [
+        "d3e25e09-ef60-4474-95e3-ab10535c0cdd",
         "1645518501d089c012-2"
       ],
       "settings": {
