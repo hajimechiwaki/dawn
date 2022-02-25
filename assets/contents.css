@@ -912,6 +912,15 @@ img {
 
 .cols[data-spslide] .slick-arrow {
   margin: 0;
+  display: block;
+  top: 0;
+  right: 40px;
+  left: 40px;
+  background: #f00;
+  width: calc(100vw - 80px);
+  height: calc( ( 100vw - 80px ) * 1.5);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
 }
 
 .cols[data-spslide] .slick-arrow.slick-prev {
