@@ -22,7 +22,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "サイトをリニューアルしました。恐れ入りますが再度アカウント作成ください。 \/The site has been renewed. We apologize for the inconvenience, but please create an account again.",
+              "text": "サイトをリニューアルしました。新規登録はこちらから。",
               "color_scheme": "background-1",
               "link": "https:\/\/mitosaya.com\/account\/register"
             }
