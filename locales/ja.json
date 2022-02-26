@@ -139,7 +139,7 @@
       },
       "view_full_details": "詳細を表示する",
       "include_taxes": "税込み。",
-      "shipping_policy_html": "<a href=\"{{ link }}\">配送料<\/a>はチェックアウト時に計算されます。お一人様あたり1商品（1サイズ）につき2点まで。"
+      "shipping_policy_html": "<a href=\"{{ link }}\">配送料<\/a>はチェックアウト時に計算されます。<br>お一人様あたり1商品（1サイズ）につき2点まで。"
     },
     "modal": {
       "label": "メディアギャラリー"
