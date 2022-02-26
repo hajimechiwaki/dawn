@@ -9,7 +9,7 @@
     "16458015530bb064ea": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"content\">\n<div class=\"content_inner\">\n<h2 class=\"content_title -center\">NEW ARRIVAL \/ <br>COMING SOON<\/h2>\n<p class=\"-center\">Feb. 27 10:00 a.m. on Sale<\/p>\n<\/div>\n<\/div>"
+        "custom_liquid": "<div class=\"content\">\n<div class=\"content_inner\">\n<h2 class=\"content_title -center\">NEW ARRIVAL \/ <br class=\"-sp\">COMING SOON<\/h2>\n<p class=\"-center\">Feb. 27 10:00 a.m. on Sale<\/p>\n<\/div>\n<\/div>"
       }
     },
     "featured_products": {
