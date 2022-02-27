@@ -21,15 +21,35 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "サイトをリニューアルしました。会員登録はこちら",
               "color_scheme": "background-1",
               "link": "https:\/\/mitosaya.com\/account\/register"
             }
+          },
+          "90c52989-5a9e-4ee2-b341-8966a9eb5233": {
+            "type": "announcement",
+            "settings": {
+              "text": "We welcome international orders \/ 海外への配送承ります",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          },
+          "6df3c456-e9fb-4f0f-aa7e-0d9481ae091d": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "90c52989-5a9e-4ee2-b341-8966a9eb5233",
+          "6df3c456-e9fb-4f0f-aa7e-0d9481ae091d"
         ],
         "settings": {
         }
