@@ -413,7 +413,7 @@
       "availability": {
         "label": "Stock",
         "value": {
-          "in_stock": "On Stock",
+          "in_stock": "On Sale",
           "out_of_stock": "Out of Stock"
         }
       },
