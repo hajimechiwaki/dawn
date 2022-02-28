@@ -101,7 +101,7 @@
     "product": {
       "add_to_cart": "Add to Cart",
       "description": "商品説明",
-      "on_sale": "on Sale",
+      "on_sale": "On Sale",
       "product_variants": "商品バリエーション",
       "quantity": {
         "label": "数量",
@@ -413,7 +413,7 @@
       "availability": {
         "label": "Stock",
         "value": {
-          "in_stock": "In Stock",
+          "in_stock": "On Stock",
           "out_of_stock": "Out of Stock"
         }
       },
