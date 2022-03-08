@@ -56,6 +56,20 @@
       "settings": {
       }
     },
+    "16467046305a4d660b": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Blog posts",
+        "blog": "the-distillers-year",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
+      }
+    },
     "1635158767d54fc3d0": {
       "type": "custom-liquid",
       "settings": {
@@ -92,6 +106,7 @@
     "163515884849c2c4e5",
     "1635158561ff60aaa7",
     "main",
+    "16467046305a4d660b",
     "1635158767d54fc3d0",
     "16455783695e91dda0"
   ]
