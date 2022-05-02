@@ -58,10 +58,28 @@
           },
           "0d96c93c-6728-4701-b00a-0b64052f1eb4": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "4月24日 新商品発売 \/ New Bottles Release on April 24th",
               "color_scheme": "background-1",
               "link": "https:\/\/mitosaya.com\/collections\/new-arrival"
+            }
+          },
+          "93409bb1-e08b-4705-a34d-03dee033c8e5": {
+            "type": "announcement",
+            "settings": {
+              "text": "WE SHIP WORLDWIDE \/ 世界中へ配送します",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          },
+          "82edab5b-5737-4786-9651-611d8e6751a0": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
             }
           }
         },
@@ -70,7 +88,9 @@
           "90c52989-5a9e-4ee2-b341-8966a9eb5233",
           "6df3c456-e9fb-4f0f-aa7e-0d9481ae091d",
           "3c3be391-bff1-4887-b354-633113e14714",
-          "0d96c93c-6728-4701-b00a-0b64052f1eb4"
+          "0d96c93c-6728-4701-b00a-0b64052f1eb4",
+          "93409bb1-e08b-4705-a34d-03dee033c8e5",
+          "82edab5b-5737-4786-9651-611d8e6751a0"
         ],
         "settings": {
         }
