@@ -37,7 +37,7 @@
     "16551789381ade03aa": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<hr>\n<div class=\"content\">\n\t<div class=\"content_inner\">\n\t\t<h2 class=\"content_title -center\">NEWSLETTER<\/h2>\n<\/div>\n<\/div>"
+        "custom_liquid": "<hr>\n<div class=\"content\">\n\t<div class=\"content_inner\">\n\t\t<h2 class=\"content_title -center\"><a href=\"\/pages\/newsletter\">NEWSLETTER<\/a><\/h2>\n<\/div>\n<\/div>"
       }
     },
     "16551789196464837f": {
