@@ -34,6 +34,29 @@
         "custom_liquid": "<hr>\n<div class=\"content\">\n\t<div class=\"content_inner\">\n\t\t<h2 class=\"content_title -center\">NEWS<\/h2>\n\t\t<div class=\"cols\">\n\t\t\t<div class=\"cols_news\">\n\t\t\t\t{% if blogs.news.articles %}\n\t\t\t\t<ul class=\"content_news\">\n\t\t\t\t  {% for article in blogs.news.articles limit:5  %}\n\t\t\t\t    <li>\n\t\t\t\t\t\t<a href=\"{{ article.url }}\">\n\t\t\t\t\t\t\t<div class=\"content_news_date\">{{ article.published_at | time_tag: '%Y.%m.%d' }}<\/div>\n\t\t\t\t\t\t\t{% if article.tags %}<div class=\"content_news_tag\">{% for tag in article.tags %}{{ tag }}{% endfor %}<\/div>{% endif %}\n\t\t\t\t\t\t\t<div class=\"content_news_title\">{{ article.title }}<\/div>\n\t\t\t\t\t\t<\/a>\n\t\t\t\t\t<\/li>\n\t\t\t\t  {% endfor %}\n\t\t\t\t<\/ul>\n\t\t\t\t{% else %}\n\t\t\t\t\t<p>まだニュースはありません。<\/p>\n\t\t\t\t{% endif %}\n\t\t\t<\/div>\n\t\t\t<!--<div class=\"cols_instagram\">\n\t\t\t\t<a href=\"https:\/\/www.instagram.com\/3tosaya\/\" target=\"_blank\">\n\t\t\t\t\t<img src=\"https:\/\/placehold.jp\/360x360.png\" width=\"180\" height=\"180\" alt=\"\">\n\t\t\t\t<\/a>\n\t\t\t<\/div>-->\n\t\t<\/div>\n\t<\/div>\n<\/div>"
       }
     },
+    "16551789381ade03aa": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>\n<div class=\"content\">\n\t<div class=\"content_inner\">\n\t\t<h2 class=\"content_title -center\">NEWSLETTER<\/h2>\n<\/div>\n<\/div>"
+      }
+    },
+    "16551789196464837f": {
+      "type": "newsletter",
+      "blocks": {
+        "16551789195a4b3e42-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16551789195a4b3e42-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "16330993394862c54b": {
       "type": "custom-liquid",
       "settings": {
@@ -88,6 +111,8 @@
     "16458015530bb064ea",
     "featured_products",
     "16343110734f066ed3",
+    "16551789381ade03aa",
+    "16551789196464837f",
     "16330993394862c54b",
     "1645089417f2b7498e",
     "1645499945a61e384c",
