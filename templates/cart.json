@@ -53,11 +53,12 @@
     },
     "1645519314a5eb2546": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "6b872bab-d1f0-4158-9168-e6d70013f805": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Newslettr<\/p>"
+            "text": "<p><a href=\"\/pages\/newsletter\" title=\"NEWSLETTER\">Newsletter<\/a><\/p>"
           }
         },
         "1645519314f2d8c296-2": {
