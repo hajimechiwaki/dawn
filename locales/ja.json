@@ -411,20 +411,10 @@
     },
     "filters": {
       "availability": {
-        "label": "Stock",
         "value": {
           "in_stock": "On Sale",
           "out_of_stock": "Out of Stock"
         }
-      },
-      "vendor": {
-        "label": "Brand"
-      },
-      "price": {
-        "label": "Price"
-      },
-      "product_type": {
-        "label": "Type"
       }
     },
     "links": {
